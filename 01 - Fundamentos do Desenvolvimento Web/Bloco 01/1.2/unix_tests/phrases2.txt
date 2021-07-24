@@ -1,3 +1,5 @@
 Crie um novo arquivo
 chamado phrases2.txt pelo terminal
 e adicione algumas frases de sua escolha.
+Brasil
+Italia
