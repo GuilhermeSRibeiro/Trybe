@@ -10,9 +10,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 01: Unix, Bash e Shell script
 
-- [ ] 01.1: _Fundamentos do desenvolvimento web_
-- [ ] 01.1: _Introdução - Unix e Shell_
-- [ ] 01.1: _Unix e Bash - Part 1_
+- [x] 01.1: _Fundamentos do desenvolvimento web_
+- [x] 01.1: _Introdução - Unix e Shell_
+- [x] 01.1: _Unix e Bash - Part 1_
 - [ ] 01.2: _Unix e Bash - Part 2_
 
 ##### Bloco 02: Git, GitHub e internet
