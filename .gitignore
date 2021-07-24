@@ -1,0 +1,4 @@
+# *.txt //ignora todos os arquivos da extenção txt.
+# arquivo.extenção //ignora apenas o arquivo específico.
+# diretório/ //ignora um diretório inteiro e todos os seus arquivos internos.
+# DICA: toptal.com/developers/gitignore.
