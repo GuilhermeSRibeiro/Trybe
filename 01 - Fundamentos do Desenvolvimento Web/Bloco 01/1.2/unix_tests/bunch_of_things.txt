@@ -1,8 +1,3 @@
-Crie um novo arquivo
-chamado phrases2.txt pelo terminal
-e adicione algumas frases de sua escolha.
-Brasil
-Italia
 Afghanistan
 Albania
 Algeria
@@ -26,6 +21,7 @@ Bhutan
 Bolivia
 Bosnia Herzegovina
 Botswana
+Brasil
 Brazil
 Brunei
 Bulgaria
@@ -37,6 +33,7 @@ Canada
 Cape Verde
 Central African Rep
 Chad
+chamado phrases2.txt pelo terminal
 Chile
 China
 Colombia
@@ -44,6 +41,7 @@ Comoros
 Congo
 Congo {Democratic Rep}
 Costa Rica
+Crie um novo arquivo
 Croatia
 Cuba
 Cyprus
@@ -52,6 +50,7 @@ Denmark
 Djibouti
 Dominica
 Dominican Republic
+e adicione algumas frases de sua escolha.
 East Timor
 Ecuador
 Egypt
@@ -84,6 +83,7 @@ Iran
 Iraq
 Ireland {Republic}
 Israel
+Italia
 Italy
 Ivory Coast
 Jamaica
@@ -148,8 +148,6 @@ Qatar
 Romania
 Russian Federation
 Rwanda
-St Kitts & Nevis
-St Lucia
 Saint Vincent & the Grenadines
 Samoa
 San Marino
@@ -168,6 +166,8 @@ South Africa
 South Sudan
 Spain
 Sri Lanka
+St Kitts & Nevis
+St Lucia
 Sudan
 Suriname
 Swaziland
