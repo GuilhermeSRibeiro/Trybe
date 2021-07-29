@@ -27,5 +27,5 @@ body {
 
 /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
 .border {
-  font-family: monospace;
+  border: 5px solid black;
 }
