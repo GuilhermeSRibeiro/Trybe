@@ -1,3 +1,7 @@
+body {
+  padding: 10px;
+}
+
 .caixa {
   color: white;
   display: inline-block;
@@ -13,7 +17,7 @@
 
 /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
 .padding {
-  font-family: monospace;
+  padding: 20px;
 }
 
 /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
