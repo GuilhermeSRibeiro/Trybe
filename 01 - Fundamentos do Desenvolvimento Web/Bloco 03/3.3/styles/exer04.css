@@ -1,3 +1,23 @@
 div:hover {
   border: 1px solid black;
 }
+
+.primaria {
+  background-color: yellow;
+}
+
+.secundaria {
+  background-color: orange;
+}
+
+.complementar {
+  background-color: blue;
+}
+
+.escura {
+  background-color: brown;
+}
+
+.clara {
+  background-color: cornsilk;
+}
