@@ -26,3 +26,7 @@ div:hover {
 h3 {
   font-family: monospace;
 }
+
+div:nth-child(odd) h3 {
+  font-style: italic;
+}
