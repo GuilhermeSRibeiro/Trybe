@@ -34,3 +34,28 @@ li em {
 .java {
   background-color: pink;
 }
+
+#stack:hover {
+  font-weight: bolder;
+  color: rgb(244, 128, 36);
+}
+
+#w3:hover {
+  font-weight: bolder;
+  color: #04AA6D;
+}
+
+#mdn:hover {
+  font-weight: bolder;
+  color: #83bfff;
+}
+
+#devd:hover {
+  font-weight: bolder;
+  color: rgb(167, 164, 164);
+}
+
+#trybe:hover {
+  font-weight: bolder;
+  color: #036b52;
+}
