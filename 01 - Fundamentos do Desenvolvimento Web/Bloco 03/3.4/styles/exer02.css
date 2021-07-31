@@ -44,3 +44,14 @@ a {
   color: black;
   margin: 0;
 }
+
+.aside {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 0;
+}
