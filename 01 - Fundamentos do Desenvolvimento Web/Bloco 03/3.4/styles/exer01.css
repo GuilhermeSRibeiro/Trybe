@@ -35,3 +35,11 @@ h1 {
   width: 300px;
   display: inline-block;
 }
+
+.premiação {
+  text-align: center;
+}
+
+.premiação li {
+  display: inline-block;
+}
