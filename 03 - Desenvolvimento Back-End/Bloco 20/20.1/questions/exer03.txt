@@ -1,5 +1,5 @@
 1. Qual coluna possui uma primary key?
-R: 
+R: A coluna film_id
 
 2. Qual coluna possui uma foreign key?
 R: 
