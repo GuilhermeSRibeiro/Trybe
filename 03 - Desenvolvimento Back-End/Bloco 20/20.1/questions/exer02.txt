@@ -2,4 +2,4 @@
 R: PK.
 
 2. Qual é o motivo de a coluna country_id não possuir nomes de country (país)? Ela é algum tipo de chave primária ou estrangeira?
-R: 
+R: Ela não possui nomes de países porquê se refere à uma chave estrangeira (FK).
