@@ -2,4 +2,4 @@
 R: A coluna film_id
 
 2. Qual coluna possui uma foreign key?
-R: 
+R: A coluna category_id
