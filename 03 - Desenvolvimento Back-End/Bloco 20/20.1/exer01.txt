@@ -5,4 +5,4 @@ R: PK porquê representa um identificador único de cada instância.
 R: FK porquê se refere à PK de uma outra tabela/entidade.
 
 3. A coluna address (endereço) possui uma constraint . Qual tipo de constraint seria interessante ser aplicado a ela para que sempre exista um valor na coluna quando uma nova linha for criada?
-R: 
+R: NOT NULL, pois impede que a coluna fique vazia.
