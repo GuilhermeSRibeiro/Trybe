@@ -1,0 +1,13 @@
+1. Entre no banco de dados mysql.
+R: 
+
+2. Visualize todas as tabelas desse banco.
+R: 
+
+3. Visualize a estrutura de pelo menos 10 tabelas diferentes e tente entender o tipo de estrutura que costuma ser utilizada.
+R: 
+
+4. Crie um novo banco de dados com o seu nome e depois entre nele!
+R: 
+
+Pronto!
