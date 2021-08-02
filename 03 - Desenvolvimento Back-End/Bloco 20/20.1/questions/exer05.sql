@@ -2,6 +2,7 @@
 -- R: Clicar com o botão direito na tabela e selecionar a opção "Select Rows".
 
 -- Exercício 2: Descubra como é possível criar uma tabela sem usar código SQL usando o MySql Workbench.
+-- R: Clicar com o botão direito em "Tabelas" e selecionar a opção "Create Table...".
 
 -- Exercício 3: Feito isso, crie uma tabela com as seguintes restrições:
   -- Nome da tabela: Filme
