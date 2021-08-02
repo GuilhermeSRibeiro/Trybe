@@ -22,3 +22,6 @@
 -- R: Relacionamento 1:N.
 
 -- Exercício 7: Abra tabela por tabela do banco sakila e encontre no mínimo 3 exemplos de um relacionamentos 1:N ou N:1.
+-- R: address (N:1) city
+   -- city (N:1) country
+   -- customer (N:1) store
