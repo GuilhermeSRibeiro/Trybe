@@ -1,5 +1,5 @@
 1. Entre no banco de dados mysql.
-R: 
+R: mysql -u root -p
 
 2. Visualize todas as tabelas desse banco.
 R: 
