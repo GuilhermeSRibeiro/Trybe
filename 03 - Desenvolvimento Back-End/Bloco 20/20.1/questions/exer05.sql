@@ -15,7 +15,8 @@
 -- Exercício 4: Analise a tabela city e encontre a tabela à qual a coluna country_id faz referência.
 -- R: Faz referência a tabela "country".
 
--- Exercício 5: Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country ?
+-- Exercício 5: Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
+-- R: Relacionamento 1:N.
 
 -- Exercício 6: Qual tipo de relacionamento a tabela country faz com a tabela city ?
 
