@@ -1,4 +1,5 @@
 -- Exercício 1: Descubra como fazer uma pesquisa em qualquer tabela sem utilizar uma linha de código usando o MySql Workbench.
+-- R: Clicar com o botão direito na tabela e selecionar a opção "Select Rows".
 
 -- Exercício 2: Descubra como é possível criar uma tabela sem usar código SQL usando o MySql Workbench.
 
