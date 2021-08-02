@@ -6,7 +6,7 @@ R: USE nome_banco;
    SHOW TABLES;
 
 3. Visualize a estrutura de pelo menos 10 tabelas diferentes e tente entender o tipo de estrutura que costuma ser utilizada.
-R: 
+R: DESCRIBE nome_tabela;
 
 4. Crie um novo banco de dados com o seu nome e depois entre nele!
 R: 
