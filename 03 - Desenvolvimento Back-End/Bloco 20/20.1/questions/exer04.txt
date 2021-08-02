@@ -9,6 +9,7 @@ R: USE nome_banco;
 R: DESCRIBE nome_tabela;
 
 4. Crie um novo banco de dados com o seu nome e depois entre nele!
-R: 
+R: CREATE DATABASE nome_banco;
+   USE nome_banco;
 
 Pronto!
