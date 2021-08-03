@@ -14,4 +14,4 @@ SELECT * FROM rental;
 SELECT title, description, release_year FROM film;
 
 -- 5. Utilize o SELECT para explorar todas as tabelas do banco de dados.
-
+-- R: Fazer como totas as tabelas o mesmo feito no exercício 1.
