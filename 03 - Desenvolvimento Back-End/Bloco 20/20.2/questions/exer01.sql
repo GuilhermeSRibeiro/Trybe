@@ -11,4 +11,4 @@ SELECT 'Guilherme' AS 'Nome', 'Ribeiro' AS 'Sobrenome', 'Belo Horizonte' AS 'Cid
 SELECT 13 * 8;
 
 -- 5. Monte uma query que exiba a data e hora atuais. Dê a essa coluna o nome "Data Atual".
-
+SELECT now() AS 'Data Atual';
