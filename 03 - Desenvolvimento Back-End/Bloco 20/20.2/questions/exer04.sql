@@ -3,7 +3,7 @@ USE Escola;
 SELECT DISTINCT Nome, Idade FROM Alunos;
 
 -- 2. Quantas linhas você encontraria na query anterior?
-
+-- R: 5
 
 -- 3. Monte uma query para encontrar somente os nomes únicos.
 
