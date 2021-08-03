@@ -1,5 +1,8 @@
--- 1. Escreva uma query que selecione todas as colunas da tabela city;
+-- Vamos agora entrar no banco de dados sakila e encontrar as seguintes informações, montando uma query para cada uma:
+USE sakila;
 
+-- 1. Escreva uma query que selecione todas as colunas da tabela city;
+SELECT * FROM city;
 
 -- 2. Escreva uma query que exiba apenas as colunas first_name e last_name da tabela customer;
 
