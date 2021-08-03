@@ -6,4 +6,4 @@ SELECT COUNT(password) FROM staff;
 SELECT COUNT(*) FROM staff;
 
 -- 3. Quantos emails temos cadastrados nessa tabela?
-
+SELECT COUNT(email) FROM staff;
