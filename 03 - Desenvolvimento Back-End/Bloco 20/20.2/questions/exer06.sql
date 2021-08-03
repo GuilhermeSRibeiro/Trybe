@@ -7,4 +7,4 @@ SELECT * FROM film;
 SELECT title, release_year, rating FROM film;
 
 -- 3. Quantos filmes temos cadastrados?
-
+SELECT COUNT(*) FROM film;
