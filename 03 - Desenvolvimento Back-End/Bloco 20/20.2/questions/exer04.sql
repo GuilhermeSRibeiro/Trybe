@@ -6,7 +6,7 @@ SELECT DISTINCT Nome, Idade FROM Alunos;
 -- R: 5
 
 -- 3. Monte uma query para encontrar somente os nomes únicos.
-
+SELECT DISTINCT Nome FROM Alunos;
 
 -- 4. Quantas linhas você encontraria na query anterior?
 
