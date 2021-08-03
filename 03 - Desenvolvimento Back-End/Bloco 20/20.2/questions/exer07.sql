@@ -1,7 +1,7 @@
 -- Para os exercícios a seguir, vamos usar a tabela sakila.actor
 USE sakila;
 -- 1. Escreva uma query que exiba apenas os sobrenomes únicos cadastrados.
-
+SELECT DISTINCT(last_name) FROM actor;
 
 -- 2. Quantos sobrenomes únicos temos na tabela?
 
