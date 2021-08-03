@@ -10,8 +10,9 @@ SELECT COUNT(DISTINCT(last_name)) FROM actor;
 SELECT * FROM actor
 ORDER BY first_name DESC, last_name;
 
--- 4. Vá até a tabela language do sakila e crie uma pesquisa que mostre os 5 idiomas cadastrados, mas não mostre o idioma english.
-
+-- 4. Vá até a tabela language do sakila e crie uma pesquisa que mostre os 5 primeiros idiomas cadastrados, mas não mostre o idioma english.
+SELECT * FROM language
+LIMIT 5 OFFSET 1;
 
 -- 5. Vá até a tabela film e selecione todos os dados da tabela. Pronto, fez isso?
 
