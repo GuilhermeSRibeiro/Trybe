@@ -4,7 +4,7 @@ USE sakila;
 SELECT DISTINCT(last_name) FROM actor;
 
 -- 2. Quantos sobrenomes únicos temos na tabela?
-
+SELECT COUNT(DISTINCT(last_name)) FROM actor;
 
 -- 3. Ordene os valores na tabela em ordem crescente de sobrenomes e em ordem decrescente de nome.
 
