@@ -6,4 +6,4 @@ SELECT CONCAT(title, ' ', release_year) AS 'Lançamento do Filme' FROM film;
 SELECT CONCAT(title, ' ', rating) AS 'Classificação' FROM film;
 
 -- 3. Na tabela sakila.address, monte uma query que exiba a rua e o distrito de cada registro em uma coluna apenas, e dê a essa coluna o nome Endereço.
-
+SELECT CONCAT(address, ' ', district) AS 'Endereço' FROM address;
