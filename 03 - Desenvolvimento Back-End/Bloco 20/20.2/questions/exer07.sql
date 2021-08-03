@@ -18,3 +18,6 @@ LIMIT 5 OFFSET 1;
 SELECT * FROM film;
 
 -- 6. Agora vamos tentar fazer o seguinte: Crie uma query para encontrar os 20 primeiros filmes, incluindo o título, o ano de lançamento, a duração, a classificação indicativa e o custo de substituição. Ordene os resultados pelos filmes com a maior duração e depois pelo menor custo de substituição.
+SELECT title, release_year, length, rating, replacement_cost FROM film
+ORDER BY length DESC, replacement_cost
+LIMIT 20;
