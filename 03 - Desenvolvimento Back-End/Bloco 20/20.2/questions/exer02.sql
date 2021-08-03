@@ -11,7 +11,7 @@ SELECT first_name, last_name FROM customer;
 SELECT * FROM rental;
 
 -- 4. Escreva uma query que exiba o título, a descrição e a data de lançamento dos filmes registrados na tabela film;
-
+SELECT title, description, release_year FROM film;
 
 -- 5. Utilize o SELECT para explorar todas as tabelas do banco de dados.
 
