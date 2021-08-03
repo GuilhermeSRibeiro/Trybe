@@ -9,7 +9,7 @@ SELECT DISTINCT Nome, Idade FROM Alunos;
 SELECT DISTINCT Nome FROM Alunos;
 
 -- 4. Quantas linhas você encontraria na query anterior?
-
+-- R: 4
 
 -- 5. Monte uma query para encontrar somente as idades únicas.
 
