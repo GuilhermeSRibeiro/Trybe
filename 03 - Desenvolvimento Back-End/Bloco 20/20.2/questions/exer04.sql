@@ -15,4 +15,4 @@ SELECT DISTINCT Nome FROM Alunos;
 SELECT DISTINCT Idade FROM Alunos;
 
 -- 6. Quantas linhas você encontraria na query anterior?
-
+-- R: 4
