@@ -8,7 +8,7 @@ SELECT * FROM city;
 SELECT first_name, last_name FROM customer;
 
 -- 3. Escreva uma query que exiba todas as colunas da tabela rental;
-
+SELECT * FROM rental;
 
 -- 4. Escreva uma query que exiba o título, a descrição e a data de lançamento dos filmes registrados na tabela film;
 
