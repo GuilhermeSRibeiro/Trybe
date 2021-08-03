@@ -5,7 +5,7 @@ USE sakila;
 SELECT * FROM city;
 
 -- 2. Escreva uma query que exiba apenas as colunas first_name e last_name da tabela customer;
-
+SELECT first_name, last_name FROM customer;
 
 -- 3. Escreva uma query que exiba todas as colunas da tabela rental;
 
