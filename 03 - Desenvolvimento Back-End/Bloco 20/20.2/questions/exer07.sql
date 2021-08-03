@@ -15,7 +15,6 @@ SELECT * FROM language
 LIMIT 5 OFFSET 1;
 
 -- 5. Vá até a tabela film e selecione todos os dados da tabela. Pronto, fez isso?
-
+SELECT * FROM film;
 
 -- 6. Agora vamos tentar fazer o seguinte: Crie uma query para encontrar os 20 primeiros filmes, incluindo o título, o ano de lançamento, a duração, a classificação indicativa e o custo de substituição. Ordene os resultados pelos filmes com a maior duração e depois pelo menor custo de substituição.
-
