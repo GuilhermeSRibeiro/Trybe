@@ -30,7 +30,9 @@ ORDER BY Name DESC;
 SELECT CONCAT('O projeto ', Name, ' precisou de ', Hours, ' horas para ser concluído') AS 'Tempo para conclusão' FROM Projects;
 
 -- 10. Escreva uma query para exibir o nome e as horas dos três projetos com a maior quantidade de horas.
-
+SELECT Name, Hours FROM Projects
+ORDER BY Hours DESC
+LIMIT 3;
 
 -- 11. Escreva uma query para exibir o código de todos os projetos da tabela AssignedTo sem que haja repetições.
 
