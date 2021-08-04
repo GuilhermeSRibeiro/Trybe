@@ -13,8 +13,9 @@ SELECT * FROM film
 WHERE description LIKE '%girl%'
 AND title LIKE '%lord';
 
--- 4. Mostre os dois casos em que, a partir do 4° caractere no título do filme, tem-se a palavra gon .
-
+-- 4. Mostre os dois casos em que, a partir do 4° caractere no título do filme, tem-se a palavra gon.
+SELECT * FROM film
+WHERE title LIKE '___gon%';
 
 -- 5. Mostre o único caso em que, a partir do 4° caractere no título do filme, tem-se a palavra gon e a descrição contém a palavra Documentary .
 
