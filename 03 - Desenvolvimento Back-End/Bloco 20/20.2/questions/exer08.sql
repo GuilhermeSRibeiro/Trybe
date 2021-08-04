@@ -10,7 +10,7 @@ SELECT 1 AS 'Primeiro número', 2 AS 'Segundo número', 3 AS 'Terceiro número';
 SELECT 10 + 15 AS 'Soma';
 
 -- 4. Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
-
+SELECT 5 + (10 / 5) AS 'Resultado';
 
 -- 5. Escreva uma query para exibir todas as informações de todos os cientistas.
 
