@@ -16,7 +16,7 @@ SELECT 5 + (10 / 5) AS 'Resultado';
 SELECT * FROM Scientists;
 
 -- 6. Escreva uma query para exibir o nome como "Nome do Projeto" e as horas como "Tempo de Trabalho" de cada projeto.
-
+SELECT Name AS 'Nome do Projeto', Hours AS 'Tempo de Trabalho' FROM Projects;
 
 -- 7. Escreva uma query para exibir o nome dos cientistas em ordem alfabética.
 
