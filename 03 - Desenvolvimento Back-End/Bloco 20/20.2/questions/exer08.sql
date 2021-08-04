@@ -38,7 +38,9 @@ LIMIT 3;
 SELECT DISTINCT(Project) AS 'Código' FROM AssignedTo;
 
 -- 12. Escreva uma query para exibir o nome do projeto com maior quantidade de horas.
-
+SELECT Name FROM Projects
+ORDER BY Hours DESC
+LIMIT 1;
 
 -- 13. Escreva uma query para exibir o nome do segundo projeto com menor quantidade de horas.
 
