@@ -1,7 +1,8 @@
 USE sakila;
 
 -- 1. Precisamos identificar os dados do cliente com o e-mail LEONARD.SCHOFIELD@sakilacustomer.org.
-
+SELECT * FROM customer
+WHERE email = 'LEONARD.SCHOFIELD@sakilacustomer.org';
 
 -- 2. Precisamos de um relatório dos nomes dos clientes, em ordem alfabética, que não estão mais ativos no nosso sistema e pertencem à loja com o id = 2, e não inclua o cliente KENNETH no resultado.
 
