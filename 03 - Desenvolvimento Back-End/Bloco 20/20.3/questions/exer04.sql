@@ -1,7 +1,8 @@
 USE sakila;
 
 -- 1. Quantos pagamentos temos com a data de retorno 2005-05-25? Há múltiplas maneiras possíveis de encontrar a resposta.
-
+SELECT COUNT(*) AS 'Pagamento na data de 25/05/2005' FROM payment
+WHERE DATE(payment_date) = '2005-05-25';
 
 -- 2. Quantos pagamentos foram feitos entre 01/07/2005 e 22/08/2005?
 
