@@ -14,7 +14,9 @@ SELECT peca, Preco, Fornecedor FROM Fornecimentos
 WHERE Fornecedor LIKE '%N%';
 
 -- 4. Escreva uma query para exibir todas as informações dos fornecedores que são empresas limitadas (LTDA). Ordene os resultados em ordem alfabética decrescente.
-
+SELECT * FROM Fornecedores
+WHERE name LIKE '%LTDA%'
+ORDER BY name DESC;
 
 -- 5. Escreva uma query para exibir o número de empresas (fornecedores) que contém a letra F no código.
 
