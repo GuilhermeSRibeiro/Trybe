@@ -1,7 +1,8 @@
 USE sakila;
 
 -- 1. Mostre todos os detalhes dos filmes que contêm a palavra ace no nome.
-
+SELECT * FROM film
+WHERE title LIKE '%ace%';
 
 -- 2. Mostre todos os detalhes dos filmes cujas descrições finalizam com china .
 
