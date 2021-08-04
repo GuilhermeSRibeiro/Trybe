@@ -19,7 +19,9 @@ ORDER BY replacement_cost DESC, title
 LIMIT 100;
 
 -- 4. Quantos clientes estão ativos e na loja 1?
-
+SELECT COUNT(*) AS 'Clientes ativos na loja 1' FROM customer
+WHERE active = 1
+AND store_id = 1;
 
 -- 5. Mostre todos os detalhes dos clientes que não estão ativos na loja 1.
 
