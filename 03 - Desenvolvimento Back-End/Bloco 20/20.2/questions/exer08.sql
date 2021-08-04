@@ -7,7 +7,7 @@ SELECT 'This is SQL Exercise, Practice and Solution' AS 'Answer';
 SELECT 1 AS 'Primeiro número', 2 AS 'Segundo número', 3 AS 'Terceiro número';
 
 -- 3. Escreva uma query para exibir a soma dos números 10 e 15.
-
+SELECT 10 + 15 AS 'Soma';
 
 -- 4. Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
 
