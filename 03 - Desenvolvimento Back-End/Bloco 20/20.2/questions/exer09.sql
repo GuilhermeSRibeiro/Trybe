@@ -1,7 +1,8 @@
 USE PiecesProviders;
 
--- 1. Escreva uma query para exibir a peça e o preço de tudo que é provido pela empresa RBT .
-
+-- 1. Escreva uma query para exibir a peça e o preço de tudo que é provido pela empresa RBT.
+SELECT * FROM Provides
+WHERE Provider = 'RBT';
 
 -- 2. Escreve uma query para exibir todas as informações das cinco peças com os maiores preços.
 
