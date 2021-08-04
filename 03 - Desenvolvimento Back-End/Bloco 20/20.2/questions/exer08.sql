@@ -4,7 +4,7 @@ USE Scientists;
 SELECT 'This is SQL Exercise, Practice and Solution' AS 'Answer';
 
 -- 2. Escreva uma query para exibir três números em três colunas.
-
+SELECT 1 AS 'Primeiro número', 2 AS 'Segundo número', 3 AS 'Terceiro número';
 
 -- 3. Escreva uma query para exibir a soma dos números 10 e 15.
 
