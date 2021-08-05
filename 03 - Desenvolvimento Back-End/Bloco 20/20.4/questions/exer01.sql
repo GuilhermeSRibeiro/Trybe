@@ -23,4 +23,5 @@ INSERT INTO category (name) VALUES
 ('Espionage');
 
 -- 5. Cadastre uma nova loja na tabela sakila.store.
-
+INSERT INTO store (address_id, manager_staff_id)
+VALUES ('3','3');
