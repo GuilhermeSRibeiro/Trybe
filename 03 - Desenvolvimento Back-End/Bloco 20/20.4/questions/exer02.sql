@@ -7,7 +7,9 @@ SET first_name = 'JULES'
 WHERE first_name = 'JULIA';
 
 -- 2. Foi exigido que a categoria "Sci-Fi" seja alterada para "Science Fiction".
-
+UPDATE category
+SET name = 'Science Fiction'
+WHERE name = 'Sci-Fi';
 
 -- 3. Atualize o valor do aluguel para $25 de todos os filmes com duração maior que 100 minutos e que possuem a classificações "G", "PG" ou "PG-13" e um custo de substituição maior que $20.
 
