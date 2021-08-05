@@ -10,7 +10,7 @@ SELECT MIN(length) AS 'Duração Mínima' FROM film;
 SELECT MAX(length) AS 'Duração Máxima' FROM film;
 
 -- 4. A soma de todas as durações como 'Tempo de Exibição Total';
-
+SELECT SUM(length) AS 'Tempo de Exibição Total' FROM film;
 
 -- 5. E finalmente, a quantidade total de filmes cadastrados na tabela sakila.film como 'Filmes Registrados'.
 
