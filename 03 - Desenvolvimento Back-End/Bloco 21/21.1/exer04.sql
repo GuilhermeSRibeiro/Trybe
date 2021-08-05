@@ -2,10 +2,10 @@
 SELECT ROUND(15 + RAND() * 5) AS 'Valor randômico entre 15 e 20';
 
 -- 2. Monte uma query que exiba o valor arredondado de 15.7515971 com uma precisão de 5 casas decimais.
-SELECT ROUND(15.7515971,5);
+SELECT ROUND(15.7515971,5) AS 'Arredondando com 5 casas decimais';
 
 -- 3. Estamos com uma média de 39.494 de vendas de camisas por mês. Qual é o valor aproximado para baixo dessa média?
-
+SELECT FLOOR(39.494) AS 'Arredondando para baixo';
 
 -- 4. Temos uma taxa de inscrição de 85.234% no curso de fotografia para iniciantes. Qual é o valor aproximado para cima dessa média?
 
