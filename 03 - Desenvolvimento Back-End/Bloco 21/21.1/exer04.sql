@@ -8,4 +8,4 @@ SELECT ROUND(15.7515971,5) AS 'Arredondando com 5 casas decimais';
 SELECT FLOOR(39.494) AS 'Arredondando para baixo';
 
 -- 4. Temos uma taxa de inscrição de 85.234% no curso de fotografia para iniciantes. Qual é o valor aproximado para cima dessa média?
-
+SELECT CEIL(85.234) AS 'Arredondando para cima';
