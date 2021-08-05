@@ -17,7 +17,10 @@ ORDER BY customer_id
 LIMIT 5;
 
 -- 4. Cadastre três categorias de uma vez só na tabela sakila.category.
-
+INSERT INTO category (name) VALUES
+('Adventure'),
+('Cult'),
+('Espionage');
 
 -- 5. Cadastre uma nova loja na tabela sakila.store.
 
