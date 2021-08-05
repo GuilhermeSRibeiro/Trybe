@@ -35,7 +35,14 @@ INSERT INTO BoxOffice(movie_id, rating, domestic_sales, international_sales) VAL
 (11, 9.9, 290000000, 280000000);
 
 -- Exercício 6: Exclua da tabela Movies o filme "WALL-E".
+SELECT id FROM Movies
+WHERE title = 'WALL-E';
 
+DELETE FROM BoxOffice
+WHERE movie_id = 11;
+
+DELETE FROM Movies
+WHERE title = 'WALL-E';
 
 -- Exercício 7: Exclua da tabela Movies todos os filmes dirigidos por "Andrew Staton".
 
