@@ -157,7 +157,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 20.2: _Encontrando dados em um banco de dados_
 - [x] 20.3: _Filtrando dados de forma específica_
 - [x] 20.4: _Manipulando tabelas_
-<!-- - [ ] 20.5: _[Projeto - All for one]()_ -->
+- [x] 20.5: _[Projeto - All for one](https://github.com/tryber/sd-010-b-mysql-all-for-one/pull/45)_
 
 ##### Bloco 21: Funções SQL, joins e subqueries
 
