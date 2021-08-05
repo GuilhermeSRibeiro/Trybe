@@ -13,4 +13,4 @@ SELECT MAX(length) AS 'Duração Máxima' FROM film;
 SELECT SUM(length) AS 'Tempo de Exibição Total' FROM film;
 
 -- 5. E finalmente, a quantidade total de filmes cadastrados na tabela sakila.film como 'Filmes Registrados'.
-
+SELECT COUNT(*) AS 'Filmes Registrados' FROM film;
