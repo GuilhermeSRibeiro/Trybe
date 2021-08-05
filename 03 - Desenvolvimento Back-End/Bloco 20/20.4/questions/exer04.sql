@@ -1,4 +1,5 @@
 USE Pixar;
+SET SQL_SAFE_UPDATES = 0;
 -- Exercício 1: Insira as produções da Pixar abaixo na tabela Movies:
 	-- Monstros SA, de Pete Docter, lançado em 2001, com 92 minutos de duração.
 	-- Procurando Nemo, de John Lasseter, lançado em 2003, com 107 minutos de duração.
@@ -15,7 +16,9 @@ INSERT INTO BoxOffice(movie_id, rating, domestic_sales, international_sales)
 VALUE (9, 6.8, 450000000, 370000000);
 
 -- Exercício 3: O diretor do filme "Procurando Nemo" está incorreto, na verdade ele foi dirigido por Andrew Staton. Corrija esse dado utilizando o UPDATE.
-
+UPDATE Movies
+SET director = 'Andrew Staton'
+WHERE title = 'Procurando Nemo';
 
 -- Exercício 4: O título do filme "Ratatouille" esta escrito de forma incorreta na tabela Movies, além disso, o filme foi lançado em 2007 e não em 2010. Corrija esses dados utilizando o UPDATE.
 
