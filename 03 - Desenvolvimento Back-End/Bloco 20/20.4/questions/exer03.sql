@@ -32,4 +32,4 @@ TRUNCATE film_category;
 -- R: Botão direito, "Table Inspector", aba DDL.
 
 -- 6. Exclua o banco de dados e o recrie (use as instruções no início desta aula).
-
+-- R: Botão direito, "Drop Schema", "Drop now", depois basta recupera-lo.
