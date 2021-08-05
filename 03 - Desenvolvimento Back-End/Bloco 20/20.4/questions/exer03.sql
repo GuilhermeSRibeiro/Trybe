@@ -24,8 +24,9 @@ WHERE first_name = 'MATTHEW';
 DELETE FROM film_text
 WHERE description LIKE '%saga%';
 
--- 4. Apague da maneira mais performática possível todos os registros das tabelas film_actor e film_category .
-
+-- 4. Apague da maneira mais performática possível todos os registros das tabelas film_actor e film_category.
+TRUNCATE film_actor;
+TRUNCATE film_category;
 
 -- 5. Inspecione todas as tabelas do banco de dados sakila e analise quais restrições ON DELETE foram impostas em cada uma. Use o Table Inspector para fazer isso (aba DDL).
 
