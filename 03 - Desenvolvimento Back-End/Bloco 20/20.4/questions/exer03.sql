@@ -1,7 +1,14 @@
 USE sakila;
 SET SQL_SAFE_UPDATES = 0;
 -- 1. Exclua do banco de dados o ator com o nome de "KARL".
+SELECT actor_id FROM actor
+WHERE first_name = 'KARL';
 
+DELETE FROM film_actor
+WHERE actor_id = 12;
+
+DELETE FROM actor
+WHERE first_name = 'KARL';
 
 -- 2. Exclua do banco de dados os atores com o nome de "MATTHEW".
 
