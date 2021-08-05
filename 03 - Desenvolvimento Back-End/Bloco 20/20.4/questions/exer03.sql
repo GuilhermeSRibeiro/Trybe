@@ -29,7 +29,7 @@ TRUNCATE film_actor;
 TRUNCATE film_category;
 
 -- 5. Inspecione todas as tabelas do banco de dados sakila e analise quais restrições ON DELETE foram impostas em cada uma. Use o Table Inspector para fazer isso (aba DDL).
-
+-- R: Botão direito, "Table Inspector", aba DDL.
 
 -- 6. Exclua o banco de dados e o recrie (use as instruções no início desta aula).
 
