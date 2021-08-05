@@ -5,4 +5,4 @@ SELECT IF(15 MOD 2 = 0,'Par','Ímpar') AS 'Par ou Ímpar';
 SELECT 220 DIV 12 AS 'Grupos de 12 pessoas';
 
 -- 3. Utilizando o resultado anterior, responda à seguinte pergunta: temos lugares sobrando? Se sim, quantos?
-
+SELECT IF(220 MOD 12 <> 0,CONCAT('Sim. Temos ',220 MOD 12,' lugares sobrando'),'Não temos lugares sobrando') AS 'Temos lugares sobrando?';
