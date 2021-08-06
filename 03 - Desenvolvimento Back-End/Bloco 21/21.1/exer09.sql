@@ -40,7 +40,11 @@ GROUP BY JOB_ID
 HAVING JOB_ID = 'IT_PROG';
 
 -- 9. Escreva uma query que exiba em ordem decrescente a média salarial de todos os cargos, exceto das pessoas programadoras (IT_PROG).
-
+SELECT JOB_ID, AVG(SALARY) AS `Média salarial dos cargos, exceto pessoas programadoras`
+FROM employees
+GROUP BY JOB_ID
+HAVING JOB_ID <> 'IT_PROG'
+ORDER BY `Média salarial dos cargos, exceto pessoas programadoras` DESC;
 
 -- 10. Escreva um query que exiba média salarial e o número de funcionários de todos os departamentos com mais de dez funcionários. Dica: agrupe pelo department_id.
 
