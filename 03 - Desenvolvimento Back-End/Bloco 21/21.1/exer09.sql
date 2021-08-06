@@ -83,4 +83,4 @@ WHERE MONTH(HIRE_DATE) = 7
 AND YEAR(HIRE_DATE) = 1987;
 
 -- 18: Escreva uma query que exiba as seguintes informações de cada funcionário: nome, sobrenome, tempo que trabalha na empresa (em dias).
-
+SELECT FIRST_NAME AS 'Nome', LAST_NAME AS 'Sobrenome', DATEDIFF(CURRENT_DATE(),HIRE_DATE) AS 'Dias que trabalha na empresa' FROM employees;
