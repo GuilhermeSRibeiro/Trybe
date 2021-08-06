@@ -55,11 +55,12 @@ HAVING `Número de funcionários` > 10;
 
 -- 11. Escreva uma query que atualize a coluna PHONE_NUMBER, de modo que todos os telefones iniciados por 515 agora devem iniciar com 777.
 UPDATE employees
-SET PHONE_NUMBER = REPLACE(PHONE_NUMER,'515','777')
+SET PHONE_NUMBER = REPLACE(PHONE_NUMBER,'515','777')
 WHERE PHONE_NUMBER LIKE '515%';
 
 -- 12. Escreva uma query que só exiba as informações dos funcionários cujo o primeiro nome tenha oito ou mais caracteres.
-
+SELECT * FROM employees
+WHERE LENGTH(FIRST_NAME) >= 8;
 
 -- 13. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome e ano no qual foi contratado (exiba somente o ano).
 
