@@ -71,7 +71,8 @@ SELECT EMPLOYEE_ID AS 'Id', FIRST_NAME AS 'Nome', DAY(HIRE_DATE) AS 'Dia em que 
 FROM employees;
 
 -- 15. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome e mês no qual foi contratado (exiba somente o mês).
-
+SELECT EMPLOYEE_ID AS 'Id', FIRST_NAME AS 'Nome', MONTH(HIRE_DATE) AS 'Mês em que foi contratado'
+FROM employees;
 
 -- 16. Escreva uma query que exiba os nomes dos funcionários em letra maiúscula.
 
