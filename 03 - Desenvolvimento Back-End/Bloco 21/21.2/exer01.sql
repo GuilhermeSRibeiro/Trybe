@@ -17,15 +17,19 @@ ON staff.address_id = address.address_id;
 
 -- 3. Exiba o id do cliente, nome e email dos primeiros 100 clientes, ordenados pelo nome em ordem decrescente, juntamente com o id do endereço e o nome da rua onde o cliente mora. Essas informações podem ser encontradas nas tabelas customer e address.
 SELECT customer.customer_id AS 'ID do cliente',
-CONCAT(customer.first_name,' ',customer.last_name) AS 'Nome completo',
+CONCAT(customer.first_name,' ',customer.last_name) AS `Nome completo`,
 customer.email AS 'e-mail',
 address.address_id AS 'ID do endereço',
 address.address AS 'Rua'
 FROM address
 INNER JOIN customer
-ON address.address_id = customer.address_id;
+ON address.address_id = customer.address_id
+ORDER BY `Nome completo` DESC
+LIMIT 100;
 
 -- 4. Exiba o nome, email, id do endereço, endereço e distrito dos clientes que moram no distrito da California e que contêm "rene" em seus nomes. As informações podem ser encontradas nas tabelas address e customer.
+
+
 -- 5. Exiba o nome e a quantidade de endereços dos clientes cadastrados. Ordene seus resultados por nomes de forma decrescente. Exiba somente os clientes ativos. As informações podem ser encontradas na tabela address e customer.
 -- 6. Monte uma query que exiba o nome, sobrenome e a média de valor (amount) paga aos funcionários no ano de 2006. Use as tabelas payment e staff. Os resultados devem estar agrupados pelo nome e sobrenome do funcionário.
 -- 7. Monte uma query que exiba o id do ator, nome, id do filme e título do filme, usando as tabelas actor, film_actor e film. Dica: você precisará fazer mais de um JOIN na mesma query.
