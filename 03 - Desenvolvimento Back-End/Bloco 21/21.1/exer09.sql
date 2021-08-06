@@ -63,7 +63,8 @@ SELECT * FROM employees
 WHERE LENGTH(FIRST_NAME) >= 8;
 
 -- 13. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome e ano no qual foi contratado (exiba somente o ano).
-
+SELECT EMPLOYEE_ID AS 'Id', FIRST_NAME AS 'Nome', YEAR(HIRE_DATE) AS 'Ano em que foi contratado'
+FROM employees;
 
 -- 14. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome e dia do mês no qual foi contratado (exiba somente o dia).
 
