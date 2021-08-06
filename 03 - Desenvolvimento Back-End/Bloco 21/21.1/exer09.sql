@@ -78,7 +78,9 @@ FROM employees;
 SELECT CONCAT(UCASE(FIRST_NAME),' ',UCASE(LAST_NAME)) AS 'Nome' FROM employees;
 
 -- 17: Escreva uma query que exiba o sobrenome e a data de contratação de todos os funcionário contratados em julho de 1987.
-
+SELECT LAST_NAME AS 'Sobrenome', HIRE_DATE AS `Data de contratação` FROM employees
+WHERE MONTH(HIRE_DATE) = 7
+AND YEAR(HIRE_DATE) = 1987;
 
 -- 18: Escreva uma query que exiba as seguintes informações de cada funcionário: nome, sobrenome, tempo que trabalha na empresa (em dias).
 
