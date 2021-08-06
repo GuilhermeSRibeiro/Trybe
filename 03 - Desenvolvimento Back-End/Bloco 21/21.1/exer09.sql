@@ -75,7 +75,7 @@ SELECT EMPLOYEE_ID AS 'Id', FIRST_NAME AS 'Nome', MONTH(HIRE_DATE) AS 'Mês em q
 FROM employees;
 
 -- 16. Escreva uma query que exiba os nomes dos funcionários em letra maiúscula.
-
+SELECT CONCAT(UCASE(FIRST_NAME),' ',UCASE(LAST_NAME)) AS 'Nome' FROM employees;
 
 -- 17: Escreva uma query que exiba o sobrenome e a data de contratação de todos os funcionário contratados em julho de 1987.
 
