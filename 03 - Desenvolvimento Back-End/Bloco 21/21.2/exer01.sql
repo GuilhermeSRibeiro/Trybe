@@ -60,4 +60,12 @@ WHERE YEAR(payment.payment_date) = 2006
 GROUP BY `Nome`, `Sobrenome`;
 
 -- 7. Monte uma query que exiba o id do ator, nome, id do filme e título do filme, usando as tabelas actor, film_actor e film. Dica: você precisará fazer mais de um JOIN na mesma query.
-
+SELECT actor.actor_id AS 'ID do ator',
+CONCAT(actor.first_name,' ',actor.last_name) AS 'Nome completo',
+film.film_id AS 'ID do filme',
+film.title AS 'Título do filme'
+FROM actor
+INNER JOIN film_actor AS fa
+ON actor.actor_id = fa.actor_id
+INNER JOIN film
+ON fa.film_id = film.film_id;
