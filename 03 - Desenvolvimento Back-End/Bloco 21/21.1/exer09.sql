@@ -29,7 +29,9 @@ FROM employees
 WHERE JOB_ID = 'IT_PROG';
 
 -- 7. Escreva uma query que exiba a quantidade de dinheiro necessária para efetuar o pagamento de cada profissão (JOB_ID).
-
+SELECT JOB_ID, SUM(SALARY) AS 'Total de salários de cada profissão'
+FROM employees
+GROUP BY JOB_ID;
 
 -- 8. Utilizando a query anterior, faça as alterações para que seja exibido somente a quantidade de dinheiro necessária para cobrir a folha de pagamento das pessoas programadoras (IT_PROG).
 
