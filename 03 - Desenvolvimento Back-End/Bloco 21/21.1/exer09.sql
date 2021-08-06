@@ -24,7 +24,9 @@ ROUND(AVG(SALARY),2) AS 'Média dos salários'
 FROM employees;
 
 -- 6. Escreva uma query que exiba a quantidade de pessoas que trabalham como pessoas programadoras (IT_PROG).
-
+SELECT JOB_ID, COUNT(*) AS 'Total de pessoas programadoras'
+FROM employees
+WHERE JOB_ID = 'IT_PROG';
 
 -- 7. Escreva uma query que exiba a quantidade de dinheiro necessária para efetuar o pagamento de cada profissão (JOB_ID).
 
