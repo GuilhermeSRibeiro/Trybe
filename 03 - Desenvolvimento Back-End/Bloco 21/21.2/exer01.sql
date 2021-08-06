@@ -28,7 +28,16 @@ ORDER BY `Nome completo` DESC
 LIMIT 100;
 
 -- 4. Exiba o nome, email, id do endereço, endereço e distrito dos clientes que moram no distrito da California e que contêm "rene" em seus nomes. As informações podem ser encontradas nas tabelas address e customer.
-
+SELECT CONCAT(customer.first_name,' ',customer.last_name) AS 'Nome completo',
+customer.email AS 'E-mail',
+address.address_id AS 'ID do endereço',
+address.address AS 'Endereço',
+address.district AS 'Distrito'
+FROM address
+INNER JOIN customer
+ON address.address_id = customer.address_id
+WHERE address.district = 'California'
+AND customer.first_name LIKE '%rene%';
 
 -- 5. Exiba o nome e a quantidade de endereços dos clientes cadastrados. Ordene seus resultados por nomes de forma decrescente. Exiba somente os clientes ativos. As informações podem ser encontradas na tabela address e customer.
 -- 6. Monte uma query que exiba o nome, sobrenome e a média de valor (amount) paga aos funcionários no ano de 2006. Use as tabelas payment e staff. Os resultados devem estar agrupados pelo nome e sobrenome do funcionário.
