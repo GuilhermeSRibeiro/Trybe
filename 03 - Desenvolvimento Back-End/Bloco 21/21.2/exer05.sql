@@ -119,6 +119,20 @@ IN
 	);
 
 -- Exercício 8: Utilizando o EXISTS, selecione o nome e localização dos cinemas que possuem filmes em cartaz.
+SELECT
+	name AS 'Nome',
+    location AS 'Localização'
+FROM
+	Theater AS T
+WHERE EXISTS (
+	SELECT
+		*
+	FROM
+		Movies AS M
+	WHERE
+		T.id = M.theater_id
+);
+
 -- Exercício 9: Utilizando o EXISTS, selecione o nome e localização dos cinemas que não possuem filmes em cartaz.
 -- Exercício 10: Utilizando o INNER JOIN, selecione todas as informações dos filmes com avaliação maior que 8 e que estejam em cartaz.
 -- Exercício 11: Utilizando o SELF JOIN, selecione os títulos e duração dos filmes que possuem o mesmo diretor.
