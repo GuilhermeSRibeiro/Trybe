@@ -25,6 +25,19 @@ WHERE
 	BO.international_sales > BO.domestic_sales;
 
 -- Exercício 3: Utilizando o INNER JOIN, faça uma busca que retorne os filmes e sua avaliação (rating) em ordem decrescente.
+SELECT
+	M.title AS 'Título',
+    BO.rating AS 'Avaliação'
+FROM
+	Movies AS M
+INNER JOIN
+	BoxOffice AS BO
+ON
+	M.id = BO.movie_id
+ORDER BY
+	Avaliação
+DESC;
+
 -- Exercício 4: Utilizando o LEFT JOIN, faça uma busca que retorne todos os dados dos cinemas, mesmo os que não possuem filmes em cartaz e, adicionalmente, os dados dos filmes que estão em cartaz nestes cinemas. Retorne os nomes dos cinemas em ordem alfabética.
 -- Exercício 5: Utilizando o RIGHT JOIN, faça uma busca que retorne todos os dados dos filmes, mesmo os que não estão em cartaz e, adicionalmente, os dados dos cinemas que possuem estes filmes em cartaz. Retorne os nomes dos cinemas em ordem alfabética.
 -- Exercício 6: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem os títulos dos filmes que possuem avaliação maior que 7.5.
