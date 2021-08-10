@@ -53,3 +53,20 @@ CALL ExibeOsFilmesDaCategoria('Comedy');
 DROP PROCEDURE ExibeOsFilmesDaCategoria;
 
 -- 3. Monte uma procedure que receba o email de um cliente como parâmetro de entrada e diga se o cliente está ou não ativo, através de um parâmetro de saída.
+DELIMITER $$
+CREATE PROCEDURE ExibeStatusDeAtividadeDoCliente(IN emailCliente VARCHAR(200), OUT ehAtivo BOOL)
+BEGIN
+	SET ehAtivo = (
+		SELECT
+			active
+        FROM
+			customer
+        WHERE
+			email = emailCliente
+    );
+END $$
+DELIMITER ;
+CALL ExibeStatusDeAtividadeDoCliente('MARY.SMITH@sakilacustomer.org', @status);
+SELECT @status;
+
+DROP PROCEDURE ExibeStatusDeAtividadeDoCliente;
