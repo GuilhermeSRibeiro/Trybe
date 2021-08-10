@@ -162,4 +162,14 @@ WHERE
 AND M.theater_id IS NOT NULL;
 
 -- Exercício 11: Utilizando o SELF JOIN, selecione os títulos e duração dos filmes que possuem o mesmo diretor.
+SELECT
+	M1.title, M1.length_minutes, M2.title, M2.length_minutes
+FROM
+	Movies AS M1,
+	Movies AS M2
+WHERE
+	M1.director = M2.director
+AND
+	M1.title <> M2.title;
+
 -- Exercício 12: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem o título dos filmes que arrecadaram 500 milhões ou mais, e que possuem duração maior que 110 minutos.
