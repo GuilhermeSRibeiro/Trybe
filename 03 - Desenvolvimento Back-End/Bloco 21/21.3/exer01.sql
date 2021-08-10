@@ -25,5 +25,31 @@ CALL ExibeOsDezAtoresMaisPopulares();
 
 DROP PROCEDURE ExibeOsDezAtoresMaisPopulares;
 
--- 2. Monte uma procedure que receba como parâmetro de entrada o nome da categoria desejada em uma string e que exiba o id do filme , seu titulo , o id de sua categoria e o nome da categoria selecionada. Use as tabelas film , film_category e category para montar essa procedure.
+-- 2. Monte uma procedure que receba como parâmetro de entrada o nome da categoria desejada em uma string e que exiba o id do filme, seu titulo, o id de sua categoria e o nome da categoria selecionada. Use as tabelas film, film_category e category para montar essa procedure.
+DELIMITER $$
+CREATE PROCEDURE ExibeOsFilmesDaCategoria(IN categoria VARCHAR(100))
+BEGIN
+	SELECT
+		f.film_id AS 'Id do filme',
+		f.title AS 'Título',
+		fc.category_id AS 'Id da categoria',
+		c.name AS 'Categoria'
+    FROM
+		film AS f
+    INNER JOIN
+		film_category AS fc
+    ON
+		f.film_id = fc.film_id
+    INNER JOIN
+		category AS c
+    ON
+		c.category_id = fc.category_id
+    WHERE
+		c.name = categoria;
+END $$
+DELIMITER ;
+CALL ExibeOsFilmesDaCategoria('Comedy');
+
+DROP PROCEDURE ExibeOsFilmesDaCategoria;
+
 -- 3. Monte uma procedure que receba o email de um cliente como parâmetro de entrada e diga se o cliente está ou não ativo, através de um parâmetro de saída.
