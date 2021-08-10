@@ -63,6 +63,33 @@ ORDER BY
 	T.name;
 
 -- Exercício 6: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem os títulos dos filmes que possuem avaliação maior que 7.5.
+SELECT
+	M.title AS 'Título'
+FROM
+	Movies AS M
+INNER JOIN
+	BoxOffice AS BO
+ON
+	M.id = BO.movie_id
+WHERE
+	BO.rating > 7.5;
+    
+SELECT
+	title AS 'Título'
+FROM
+	Movies
+WHERE
+	id
+IN
+	(
+		SELECT
+			movie_id
+		FROM
+			BoxOffice
+		WHERE
+			rating > 7.5
+    );
+
 -- Exercício 7: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem as avaliações dos filmes lançados depois de 2009.
 -- Exercício 8: Utilizando o EXISTS, selecione o nome e localização dos cinemas que possuem filmes em cartaz.
 -- Exercício 9: Utilizando o EXISTS, selecione o nome e localização dos cinemas que não possuem filmes em cartaz.
