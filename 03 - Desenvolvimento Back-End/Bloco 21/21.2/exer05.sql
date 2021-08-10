@@ -173,3 +173,31 @@ AND
 	M1.title <> M2.title;
 
 -- Exercício 12: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem o título dos filmes que arrecadaram 500 milhões ou mais, e que possuem duração maior que 110 minutos.
+SELECT 
+    M.title AS 'Título'
+FROM
+    Movies AS M
+INNER JOIN
+    BoxOffice AS BO
+ON
+	BO.movie_id = M.id
+WHERE
+    BO.international_sales >= 500000000
+AND M.length_minutes > 110;
+
+SELECT 
+    M.title
+FROM
+    Movies AS M
+WHERE
+    M.id
+IN
+	(
+		SELECT 
+            BO.movie_id
+        FROM
+            BoxOffice AS BO
+        WHERE
+            BO.international_sales >= 500000000
+	)
+AND M.length_minutes > 110;
