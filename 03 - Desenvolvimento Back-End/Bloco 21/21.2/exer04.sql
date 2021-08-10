@@ -46,4 +46,19 @@ WHERE
 );
 
 -- 4. Usando o comando EXISTS em conjunto com JOIN e as tabelas cars, customers e carsales, exiba o nome do cliente e o modelo do carro de todos os clientes que fizeram compras de carros.
-
+SELECT
+	C.Name AS 'Nome',
+    Ca.Name AS 'Carro'
+FROM
+	Customers AS C
+INNER JOIN
+	Cars AS Ca
+WHERE EXISTS (
+SELECT
+	*
+FROM
+	CarSales AS CS
+WHERE
+	C.CustomerId = CS.CustomerId
+AND Ca.Id = CS.CarId
+);
