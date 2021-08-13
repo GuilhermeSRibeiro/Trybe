@@ -12,4 +12,15 @@ END $$
 DELIMITER ;
 
 -- 2. Crie um TRIGGER que, a cada atualização feita na tabela carros, defina o valor da coluna data_atualizacao para o momento do ocorrido e a acao para 'ATUALIZAÇÃO'.
+USE betrybe_automoveis;
+DELIMITER $$
+CREATE TRIGGER Segunda
+BEFORE UPDATE ON carros
+FOR EACH ROW
+BEGIN
+	SET NEW.data_atualizacao = NOW(),
+    NEW.acao = 'ATUALIZAÇÃO';
+END $$
+DELIMITER ;
+
 -- 3. Crie um TRIGGER que, a cada exclusão feita na tabela carros, envie para a tabela log_operacoes as informações do tipo_operacao como 'EXCLUSÃO' e a data_ocorrido como o momento da operação.
