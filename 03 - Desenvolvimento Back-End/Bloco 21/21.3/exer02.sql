@@ -27,8 +27,24 @@ BEGIN
     ON f.film_id = i.film_id
     WHERE i.film_id = inventory_id
     INTO filme;
+    RETURN filme;
 END $$
 DELIMITER ;
 SELECT RetornaFilmePeloIdDoInventario(1);
 
 -- 3. Crie uma function que receba uma determinada categoria de filme em formato de texto (ex: 'Action', 'Horror') e retorna a quantidade total de filmes registrados nessa categoria.
+DELIMITER $$
+CREATE FUNCTION CalculaQuantidadeDeFilmesPorCategoria(categoria VARCHAR(100))
+RETURNS INT READS SQL DATA
+BEGIN
+	DECLARE quantidade INT;
+    SELECT COUNT(*)
+    FROM category AS c
+    INNER JOIN film_category AS fc
+    ON c.category_id = fc.category_id
+    WHERE c.name = categoria
+	INTO quantidade;
+    RETURN quantidade;
+END $$
+DELIMITER ;
+
