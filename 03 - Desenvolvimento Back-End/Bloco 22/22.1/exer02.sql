@@ -9,3 +9,8 @@ CREATE TABLE Animal(
     Idade INT NOT NULL,
     Localizacao VARCHAR(50) NOT NULL
 ) ENGINE=InnoDB;
+
+CREATE TABLE Gerente(
+	Gerente_id INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(50) NOT NULL
+) ENGINE=InnoDB;
