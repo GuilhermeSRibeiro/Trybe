@@ -14,3 +14,10 @@ CREATE TABLE Gerente(
 	Gerente_id INT PRIMARY KEY AUTO_INCREMENT,
     Nome VARCHAR(50) NOT NULL
 ) ENGINE=InnoDB;
+
+CREATE TABLE Cuidador(
+	Cuidador_id INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(50) NOT NULL,
+    Gerente_id INT NOT NULL,
+    FOREIGN KEY (Gerente_id) REFERENCES Gerente(Gerente_id)
+) ENGINE=InnoDB;
