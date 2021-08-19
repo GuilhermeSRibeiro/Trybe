@@ -1,1 +1,11 @@
 CREATE DATABASE IF NOT EXISTS Zoologico;
+
+USE Zoologico;
+CREATE TABLE Animal(
+	Animal_id INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(50) NOT NULL,
+    Especie VARCHAR(50) NOT NULL,
+    Sexo VARCHAR(5) NOT NULL,
+    Idade INT NOT NULL,
+    Localizacao VARCHAR(50) NOT NULL
+) ENGINE=InnoDB;
