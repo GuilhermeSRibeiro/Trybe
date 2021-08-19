@@ -21,3 +21,10 @@ CREATE TABLE Cuidador(
     Gerente_id INT NOT NULL,
     FOREIGN KEY (Gerente_id) REFERENCES Gerente(Gerente_id)
 ) ENGINE=InnoDB;
+
+CREATE TABLE Animal_Cuidador(
+	Animal_id INT NOT NULL,
+    Cuidador_id INT NOT NULL,
+    FOREIGN KEY (Animal_id) REFERENCES Animal(Animal_id),
+    FOREIGN KEY (Cuidador_id) REFERENCES Cuidador(Cuidador_id)
+) ENGINE=InnoDB;
