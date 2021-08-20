@@ -16,3 +16,5 @@ ORDER BY
 LIMIT 10;
 
 SELECT * FROM top_10_customers;
+
+DROP VIEW top_10_customers;
