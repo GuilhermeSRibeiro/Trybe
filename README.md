@@ -169,7 +169,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 22: Normalização e modelagem de banco de dados
 
 - [x] 22.1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22.2: _Normalização, formas normais e dumps_
+- [x] 22.2: _Normalização, formas normais e dumps_
 - [ ] 22.3: _Transformando ideias em um modelo de banco de dados - Parte 2_
 <!-- - [ ] 22.4: _[Projeto - One for all]()_ -->
 
