@@ -6,3 +6,5 @@ CREATE TABLE noticia(
 ) engine = InnoDB;
 
 ALTER TABLE noticia ADD COLUMN data_postagem date NOT NULL;
+
+ALTER TABLE noticia MODIFY noticia_id BIGINT;
