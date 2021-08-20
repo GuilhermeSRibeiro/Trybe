@@ -8,3 +8,5 @@ CREATE TABLE noticia(
 ALTER TABLE noticia ADD COLUMN data_postagem date NOT NULL;
 
 ALTER TABLE noticia MODIFY noticia_id BIGINT;
+
+ALTER TABLE noticia MODIFY noticia_id BIGINT AUTO_INCREMENT;
