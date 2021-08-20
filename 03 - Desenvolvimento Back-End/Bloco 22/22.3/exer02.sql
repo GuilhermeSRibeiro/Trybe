@@ -14,3 +14,5 @@ customer_id
 ORDER BY
 `Total amount` DESC
 LIMIT 10;
+
+SELECT * FROM top_10_customers;
