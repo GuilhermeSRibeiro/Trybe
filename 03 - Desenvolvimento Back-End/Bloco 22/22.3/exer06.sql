@@ -11,6 +11,6 @@ address AS a
 INNER JOIN
 city AS c
 ON
-a.city_id = c.city_id
+c.city_id = a.city_id
 ORDER BY
 c.city;
