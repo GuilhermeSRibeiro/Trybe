@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
 --
--- Host: localhost    Database: praticando
+-- Host: localhost    Database: Praticando
 -- ------------------------------------------------------
 -- Server version 8.0.18
 
@@ -14,11 +14,11 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE IF NOT EXISTS praticando;
+CREATE DATABASE IF NOT EXISTS Praticando;
 --
 -- Table structure for table `manufacturers`
 --
-use praticando;
+use Praticando;
 DROP TABLE IF EXISTS `manufacturers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -42,7 +42,7 @@ UNLOCK TABLES;
 --
 -- Table structure for table `products`
 --
-use praticando;
+use Praticando;
 DROP TABLE IF EXISTS `products`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;

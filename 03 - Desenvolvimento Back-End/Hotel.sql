@@ -1,7 +1,7 @@
-CREATE DATABASE IF NOT EXISTS hotel;
+CREATE DATABASE IF NOT EXISTS Hotel;
 -- SQL for the Cars table
 
-USE hotel;
+USE Hotel;
 CREATE TABLE IF NOT EXISTS Cars(Id INTEGER PRIMARY KEY, Name VARCHAR(50),
 Cost INTEGER);
 INSERT INTO Cars VALUES(1,'Audi',52642);
@@ -14,7 +14,7 @@ INSERT INTO Cars VALUES(7,'Hummer',41400);
 INSERT INTO Cars VALUES(8,'Volkswagen',21600);
 -- SQL for the Customers, Reservations tables
 
-USE hotel;
+USE Hotel;
 
 CREATE TABLE IF NOT EXISTS Customers(CustomerId INTEGER AUTO_INCREMENT
     PRIMARY KEY, Name VARCHAR(55));
@@ -40,7 +40,7 @@ INSERT INTO CarSales VALUES(1,2);
 INSERT INTO CarSales VALUES(2,2);
 
 -- SQL for the Books table
-USE hotel;
+USE Hotel;
 
 CREATE TABLE IF NOT EXISTS Books(Id INTEGER PRIMARY KEY,
     Title VARCHAR(100), Author VARCHAR(60));
@@ -53,7 +53,7 @@ INSERT INTO Books VALUES(6,'Refactorign','Martin Fowler');
 INSERT INTO Books VALUES(7,'The Complete Software Developer’s Career Guide ','John Sonmez');
 
 
-USE hotel;
+USE Hotel;
 CREATE TABLE IF NOT EXISTS Books_Lent(book_rental INTEGER AUTO_INCREMENT PRIMARY KEY, book_id INTEGER , customer_id int, rental_date datetime, rental_return_date datetime null, returned bool);
 INSERT INTO Books_Lent (book_id, customer_id, rental_date, rental_return_date, returned) VALUES(1, 2, '2020-02-05', null ,0);
 INSERT INTO Books_Lent (book_id, customer_id, rental_date, rental_return_date, returned) VALUES(2, 2,'2020-02-05 16:17:39', now(), true);

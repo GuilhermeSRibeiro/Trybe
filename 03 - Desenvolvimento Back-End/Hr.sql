@@ -3,7 +3,7 @@
 -- Host: localhost    Database: w3resour_hr
 -- ------------------------------------------------------
 -- Server version 5.6.33-0ubuntu0.14.04.1
-CREATE database if not exists hr;
+CREATE database if not exists Hr;
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -18,7 +18,7 @@ CREATE database if not exists hr;
 --
 -- Table structure for table `countries`
 --
-use hr;
+use Hr;
 DROP TABLE IF EXISTS `countries`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;

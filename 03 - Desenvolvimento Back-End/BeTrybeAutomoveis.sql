@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS betrybe_automoveis;
+CREATE DATABASE IF NOT EXISTS BeTrybeAutomoveis;
 
-USE betrybe_automoveis;
+USE BeTrybeAutomoveis;
 
 CREATE TABLE carros(
     id_carro INT PRIMARY KEY auto_increment,
