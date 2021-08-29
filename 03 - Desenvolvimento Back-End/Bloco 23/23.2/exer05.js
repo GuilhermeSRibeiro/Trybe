@@ -47,7 +47,8 @@ use("superheroes");
 db.superheroes.find({ "aspects.height": { $not: { $gt: 180 } } });
 
 // Exercício 13: Selecione todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
-
+use("superheroes");
+db.superheroes.find({$nor: [{race: "Human"},{"aspects.height": {$gt: 180}}]});
 
 // Exercício 14: Selecione todos os super-heróis com 1.80m ou 2.00m de altura e que sejam publicados pela Marvel Comics.
 
