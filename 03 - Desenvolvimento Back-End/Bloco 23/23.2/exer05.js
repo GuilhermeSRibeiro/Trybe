@@ -44,14 +44,15 @@ db.superheroes.count({ "aspects.hairColor": { $nin: ["black","No Hair"] } });
 
 // Exercício 12: Utilizando o operador $not, retorne o total de super-heróis que não tenham mais de 1.80m de altura.
 use("superheroes");
-db.superheroes.find({ "aspects.height": { $not: { $gt: 180 } } });
+db.superheroes.find({ "aspects.height": { $not: { $gt: 180 } } }).pretty();
 
 // Exercício 13: Selecione todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
 use("superheroes");
-db.superheroes.find({$nor: [{race: "Human"},{"aspects.height": {$gt: 180}}]});
+db.superheroes.find({$nor: [{race: "Human"},{"aspects.height": {$gt: 180}}]}).pretty();
 
 // Exercício 14: Selecione todos os super-heróis com 1.80m ou 2.00m de altura e que sejam publicados pela Marvel Comics.
-
+use("superheroes");
+db.superheroes.find({$and:[{"aspects.height":{$in:[180,200]}},{publisher:"Marvel Comics"}]}).pretty();
 
 // Exercício 15: Selecione todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
 
