@@ -16,4 +16,5 @@ use("business");
 db.restaurants.find({ $nor: [{ rating: { $eq: 1 } },{ cuisine: "American" }] }).count();
 
 // 5. Selecione e faça a contagem dos resturantes em que a avaliação seja maior que 6 ou menor que 10, E esteja localizado no bairro Brooklyn, OU não possuem culinária do tipo Delicatessen.
-
+use("business");
+db.restaurants.find({ and: [{ $or: [{ rating: { $gt: 6, $lt: 10 } }] },{ $or: [{ borough: 'Brooklyn' },{ cuisine: { $ne: 'Delicatessen' } }] }] }).count();
