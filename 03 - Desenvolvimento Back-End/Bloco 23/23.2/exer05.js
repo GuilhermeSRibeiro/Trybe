@@ -32,18 +32,19 @@ db.superheroes.count({ "aspects.eyeColor": "blue" });
 
 // Exercício 9: Utilizando o operador $in, selecione todos os super-heróis com cabelos pretos ou carecas ("No Hair").
 use("superheroes");
-db.superheroes.find({ "aspects.eyeColor": { $in: ["black","No Hair"] } }).pretty();
+db.superheroes.find({ "aspects.hairColor": { $in: ["black","No Hair"] } }).pretty();
 
 // Exercício 10: Retorne o total de super-heróis com cabelos pretos ou carecas ("No Hair").
 use("superheroes");
-db.superheroes.count({ "aspects.eyeColor": { $in: ["black","No Hair"] } });
+db.superheroes.count({ "aspects.hairColor": { $in: ["black","No Hair"] } });
 
 // Exercício 11: Retorne o total de super-heróis que não tenham cabelos pretos ou não sejam carecas.
 use("superheroes");
-db.superheroes.count({ "aspects.eyeColor": { $nin: ["black","No Hair"] } });
+db.superheroes.count({ "aspects.hairColor": { $nin: ["black","No Hair"] } });
 
 // Exercício 12: Utilizando o operador $not, retorne o total de super-heróis que não tenham mais de 1.80m de altura.
-
+use("superheroes");
+db.superheroes.find({ "aspects.height": { $not: { $gt: 180 } } });
 
 // Exercício 13: Selecione todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
 
