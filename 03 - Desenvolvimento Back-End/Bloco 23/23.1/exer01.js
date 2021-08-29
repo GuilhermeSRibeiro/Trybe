@@ -30,5 +30,8 @@ use("trybe");
 db.books.count();
 
 // Exercício 8: Conte quantos livros existem com o status = "PUBLISH".
+use("trybe");
+db.books.count({status: "PUBLISH"});
+
 // Exercício 9: Exiba os atributos title, isbn e pageCount dos 3 primeiros livros. NÃO retorne o atributo _id.
 // Exercício 10: Pule 5 documentos e exiba os atributos _id, title, authors e status dos livros com o status = "MEAP", limitando-se a 10 documentos.
