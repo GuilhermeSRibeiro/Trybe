@@ -21,6 +21,9 @@ use("sample");
 db.bios.find().limit(3).pretty();
 
 // Exercício 6: Retorne 2 documentos da coleção bios pulando os 5 primeiros documentos.
+use("sample");
+db.bios.find().limit(2).skip(5).pretty();
+
 // Utilizando o mongoimport, importe o arquivo books.json para a sua instância local do MongoDB e utilize a coleção books para construir as seguintes consultas:
 // Exercício 7: Retorne a quantidade de documentos da coleção books.
 // Exercício 8: Conte quantos livros existem com o status = "PUBLISH".
