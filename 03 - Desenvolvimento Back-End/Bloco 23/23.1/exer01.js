@@ -1,6 +1,9 @@
 // Utilizando a coleção bios, construa queries para retornar os seguintes itens:
 
 // Exercício 1: Retorne o documento com o _id igual a 8.
+use("sample");
+db.bios.find({_id: 8}).pretty();
+
 // Exercício 2: Retorne o documento com o _id igual a 8, mas só exiba os atributos: _id e name.
 // Exercício 3: Retorne apenas os atributos name e birth do documento com o _id igual a 8.
 // Exercício 4: Retorne todos os documentos em que o atributo name.first seja igual a John, utilizando o método pretty().
