@@ -4,7 +4,8 @@ db.restaurants.find({rating: {$not: {$lte: 5}}}).count();
 
 
 // 2. Selecione e faça a contagem dos restaurantes em que a avaliação seja maior ou igual a 6, ou restaurantes localizados no bairro Brooklyn.
-
+use("business");
+db.restaurants.find({ $or: [{ rating: { $gte: 6 } },{ borough: "Brooklyn" }] }).count();
 
 // 3. Selecione e faça a contagem dos restaurantes localizados nos bairros Queens, Staten Island e Broklyn e possuem avaliação maior que 4.
 
