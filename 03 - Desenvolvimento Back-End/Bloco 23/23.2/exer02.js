@@ -1,4 +1,6 @@
 // 1. Selecione e faça a contagem dos restaurantes que não possuem avaliação menor ou igual a 5, essa consulta também deve retornar restaurantes que não possuem o campo avaliação.
+use("business");
+db.restaurants.find({rating: {$not: {$lte: 5}}}).count();
 
 
 // 2. Selecione e faça a contagem dos restaurantes em que a avaliação seja maior ou igual a 6, ou restaurantes localizados no bairro Brooklyn.
