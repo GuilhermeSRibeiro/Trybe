@@ -28,7 +28,7 @@ db.superheroes.find({ "aspects.eyeColor": "green" }).pretty();
 
 // Exercício 8: Retorne o total de super-heróis com olhos azuis.
 use("superheroes");
-db.superheroes.count({ "aspects.eyeColor": "blue" });
+db.superheroes.count({ "aspects.eyeColor": "blue" })
 
 // Exercício 9: Utilizando o operador $in, selecione todos os super-heróis com cabelos pretos ou carecas ("No Hair").
 
