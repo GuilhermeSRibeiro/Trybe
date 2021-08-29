@@ -2,9 +2,9 @@
 use("superheroes");
 db.superheroes.findOne();
 
-
 // Exercício 2: Selecione todos os super-heróis com menos de 1.80m de altura. Lembre-se de que essa informação está em centímetros.
-
+use("superheroes");
+db.superheroes.find({ "aspects.height": {$lt: 180} }).pretty();
 
 // Exercício 3: Retorne o total de super-heróis menores que 1.80m.
 
