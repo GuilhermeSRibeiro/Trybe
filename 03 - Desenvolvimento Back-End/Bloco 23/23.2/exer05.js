@@ -7,7 +7,8 @@ use("superheroes");
 db.superheroes.find({ "aspects.height": {$lt: 180} }).pretty();
 
 // Exercício 3: Retorne o total de super-heróis menores que 1.80m.
-
+use("superheroes");
+db.superheroes.count({ "aspects.height": {$lt: 180} });
 
 // Exercício 4: Retorne o total de super-heróis com até 1.80m.
 
