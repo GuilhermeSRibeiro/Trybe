@@ -6,13 +6,18 @@ db.movies.updateOne(
 );
 
 // Exercício 2: Altere budget para 1 no filme Godzilla.
+use("class");
 db.movies.updateOne(
   { title: "Godzilla" },
   { $set: { budget: 1 } },
 );
 
 // Exercício 3: Altere budget para 15 e imdbRating para 5.5 no filme Home Alone.
-
+use("class");
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $set: { budget: 15, imdbRating: 5.5 } }
+);
 
 // Exercício 4: Aumente em 2 o imdbRating do filme Batman.
 
