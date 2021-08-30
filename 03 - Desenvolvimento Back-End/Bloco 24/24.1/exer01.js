@@ -55,7 +55,14 @@ db.movies.updateOne(
 );
 
 // Exercício 9: Utilize o operador $max para alterar o imdbRating para 8.6 do filme Godzilla. Além disso, altere a categoria "adventure" para "thriller" do filme Godzilla.
-
+use("class");
+db.movies.updateOne(
+  { title: "Godzilla" },
+  {
+    $max: { imdbRating: 8.6 },
+    $set: { "category.1": "thriller" },
+  },
+);
 
 // Exercício 10: Utilizando o operador $currentDate, crie um campo chamado lastUpdated com o tipo timestamp no filme Home Alone.
 
