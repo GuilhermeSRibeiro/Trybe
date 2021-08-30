@@ -27,7 +27,11 @@ db.movies.updateOne(
 );
 
 // Exercício 5: Aumente em 5 o budget do filme Home Alone.
-
+use("class");
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $inc: { budget: 5 } },
+);
 
 // Exercício 6: Multiplique por 4 o imdbRating do filme Batman.
 
