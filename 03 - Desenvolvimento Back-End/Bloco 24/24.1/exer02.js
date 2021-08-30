@@ -85,4 +85,17 @@ db.xmen.updateMany(
 );
 
 // Exercício 20: Em apenas uma query, adicione o campo areas com ["Outside"] a todos os Junior Staff que não tenham o campo areas definido.
-
+use("class");
+db.xmen.updateMany(
+  {
+    areas: {
+      $exists: false,
+    },
+    occupation: "Junior Staff",
+  },
+  {
+    $set: {
+      areas: ["Outside"],
+    },
+  },
+);
