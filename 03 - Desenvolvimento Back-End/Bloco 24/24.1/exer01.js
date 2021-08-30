@@ -16,11 +16,15 @@ db.movies.updateOne(
 use("class");
 db.movies.updateOne(
   { title: "Home Alone" },
-  { $set: { budget: 15, imdbRating: 5.5 } }
+  { $set: { budget: 15, imdbRating: 5.5 } },
 );
 
 // Exercício 4: Aumente em 2 o imdbRating do filme Batman.
-
+use("class");
+db.movies.updateOne(
+  { title: "Batman" },
+  { $inc: { imdbRating: 2 } },
+);
 
 // Exercício 5: Aumente em 5 o budget do filme Home Alone.
 
