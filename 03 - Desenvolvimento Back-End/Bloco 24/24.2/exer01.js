@@ -54,7 +54,14 @@ db.movies.updateOne(
 db.movies.find();
 
 // Exercício 6: Adicione o elemento "action" ao array category do filme Batman, garantindo que esse valor não se duplique.
-
+use("class");
+db.movies.updateOne(
+  { title: "Batman" },
+  {
+    $addToSet: { category: "action" },
+  },
+);
+db.movies.find();
 
 // Exercício 7: Adicione a categoria "90's" aos filmes Batman e Home Alone.
 
