@@ -80,7 +80,22 @@ db.movies.find(
 ).pretty();
 
 // 07. Retorne todos os filmes com ratings entre 100 e 105, exibindo apenas os campos title e ratings.
-
+use("class");
+db.movies.find(
+  {
+    ratings: {
+      $elemMatch: {
+        $gte: 100,
+        $lte: 105,
+      },
+    },
+  },
+  {
+    _id: 0,
+    title: 1,
+    ratings: 1,
+  },
+).pretty();
 
 // 08. Retorne todos os filmes com ratings entre 64 e 105 e divisíveis por 9, exibindo apenas os campos title e ratings.
 
