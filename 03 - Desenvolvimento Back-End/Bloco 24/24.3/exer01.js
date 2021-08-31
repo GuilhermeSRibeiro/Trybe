@@ -49,7 +49,18 @@ db.movies.updateOne(
 db.movies.find();
 
 // 05. Adicione um array chamado ratings ao filme Home Alone com os seguintes valores: [200, 99, 65].
-
+use("class");
+db.movies.updateOne(
+  { title: "Home Alone" },
+  {
+    $push: {
+      ratings: {
+        $each: [200, 99, 65],
+      },
+    },
+  },
+);
+db.movies.find();
 
 // 06. Retorne todos os filmes com ratings maior do que 103, exibindo apenas os campos title e ratings.
 
