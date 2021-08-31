@@ -159,7 +159,8 @@ db.movies.updateOne(
 );
 db.movies.find();
 
-// Exercício 11: Produza três querys para o filme Batman :
+// Exercício 11: Produza três querys para o filme Batman:
+// Dica: Para isso, leia aqui sobre o operador $.
 // * Adicione o campo actor, que deve ser um array com o valor Christian Bale, ao array de cast em que o campo character seja igual a Batman;
 use("class");
 db.movies.updateOne(
@@ -187,8 +188,17 @@ db.movies.updateOne(
 db.movies.find();
 
 // * Adicione o campo actor, que deve ser um array com o valor Heath Ledger, ao array de cast em que o campo character seja igual a Coringa.
-// Dica: Para isso, leia aqui sobre o operador $.
-
+use("class");
+db.movies.updateOne(
+  {
+    title: "Batman",
+    "cast.character": "Coringa",
+  },
+  {
+    $push: { "cast.$.actor": "Heath Ledger" },
+  },
+);
+db.movies.find();
 
 // Exercício 12: Adicione aos atores de cast do character Batman do filme Batman os valores "Michael Keaton", "Val Kilmer" e "George Clooney", e deixe o array em ordem alfabética.
 // Dica: Para isso, leia aqui sobre o operador $.
