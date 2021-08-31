@@ -117,7 +117,14 @@ db.movies.find();
 
 // Exercício 9: Adicione o campo character com o valor Marv ao array de cast em que o campo actor seja igual a Daniel Stern no filme Home Alone.
 // Dica: Para isso, leia aqui sobre o operador $.
-
+use("class");
+db.movies.updateOne(
+  { title: "Home Alone", "cast.actor": "Daniel Stern" },
+  {
+    $set: { "cast.$.character": "Marv" },
+  },
+);
+db.movies.find();
 
 // Exercício 10: Crie um array de documentos chamado cast para o filme Batman com os seguintes dados:
 // {
