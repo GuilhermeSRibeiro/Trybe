@@ -227,7 +227,16 @@ db.movies.find(
 ).pretty();
 
 // 15. Adicione o campo description no filme Batman com o seguinte valor: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.".
-
+use("class");
+db.movies.updateOne(
+  { title: "Batman" },
+  {
+    $set: {
+      description: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+    },
+  },
+);
+db.movies.find();
 
 // 16. Adicione o campo description no filme Godzilla com o seguinte valor: "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.".
 
