@@ -202,7 +202,29 @@ db.movies.find(
 ).pretty();
 
 // 14. Retorne os filmes em que o ratings possua tamanho 4 e que seja da category "adventure" ou "family", mas que não tenha o imdbRating menor que 7.
-
+use("class");
+db.movies.find(
+  {
+    $and: [
+      {
+        ratings: { $size: 4 },
+      },
+      {
+        $or: [
+          { category: "adventure" },
+          { category: "family" },
+        ],
+      },
+      {
+        imdbRating: {
+          $not: {
+            $lt: 7,
+          },
+        },
+      },
+    ],
+  },
+).pretty();
 
 // 15. Adicione o campo description no filme Batman com o seguinte valor: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.".
 
