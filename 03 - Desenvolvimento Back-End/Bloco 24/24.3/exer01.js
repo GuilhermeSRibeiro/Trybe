@@ -152,7 +152,18 @@ db.movies.find(
 ).pretty();
 
 // 11. Retorne somente o título de todos os filmes com quatro elementos no array ratings.
-
+use("class");
+db.movies.find(
+  {
+    ratings: {
+      $size: 4,
+    },
+  },
+  {
+    _id: 0,
+    title: 1,
+  },
+).pretty();
 
 // 12. Busque os filmes em que o módulo 5 do campo budget seja 0 e que o array category tenha tamanho 2.
 
