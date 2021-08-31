@@ -136,7 +136,28 @@ db.movies.find();
 // {
 //   "character": "Coringa"
 // }
-
+use("class");
+db.movies.updateOne(
+  { title: "Batman" },
+  {
+    $push: {
+      cast: {
+        $each: [
+          {
+            "character": "Batman"
+          },
+          {
+            "character": "Alfred"
+          },
+          {
+            "character": "Coringa"
+          },
+        ],
+      },
+    },
+  },
+);
+db.movies.find();
 
 // Exercício 11: Produza três querys para o filme Batman :
 // * Adicione o campo actor, que deve ser um array com o valor Christian Bale, ao array de cast em que o campo character seja igual a Batman ;
