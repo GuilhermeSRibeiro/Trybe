@@ -298,7 +298,14 @@ db.movies.find(
 ).pretty();
 
 // 22. Utilizando o operador $text, busque por filmes que contenham os termos "monstrous" ou "criminal".
-
+use("class");
+db.movies.find(
+  {
+    $text: {
+      $search: "monstrous criminal",
+    },
+  },
+).pretty();
 
 // 23. Utilizando o operador $text, busque por filmes que contenham a frase "when he is accidentally".
 
