@@ -288,7 +288,14 @@ db.movies.createIndex({ description: "text" });
 db.movies.find();
 
 // 21. Utilizando o operador $text, busque por filmes que contenham o termo "vacation".
-
+use("class");
+db.movies.find(
+  {
+    $text: {
+      $search: "vacation",
+    },
+  },
+).pretty();
 
 // 22. Utilizando o operador $text, busque por filmes que contenham os termos "monstrous" ou "criminal".
 
