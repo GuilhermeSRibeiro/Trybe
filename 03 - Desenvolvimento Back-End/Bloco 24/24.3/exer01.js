@@ -263,7 +263,14 @@ db.movies.updateOne(
 db.movies.find();
 
 // 18. Utilizando o operador $regex, retorne todos os filmes em que a descrição comece com a palavra "The".
-
+use("class");
+db.movies.find(
+  {
+    description: {
+      $regex: /^The/
+    },
+  },
+).pretty();
 
 // 19. Utilizando o operador $regex, retorne todos os filmes em que a descrição termine com a palavra "humanity.".
 
