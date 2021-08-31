@@ -273,7 +273,14 @@ db.movies.find(
 ).pretty();
 
 // 19. Utilizando o operador $regex, retorne todos os filmes em que a descrição termine com a palavra "humanity.".
-
+use("class");
+db.movies.find(
+  {
+    description: {
+      $regex: /humanity.$/
+    },
+  },
+).pretty();
 
 // 20. Crie um índice do tipo text no campo description.
 
