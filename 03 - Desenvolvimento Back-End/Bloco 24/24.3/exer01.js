@@ -138,7 +138,18 @@ db.movies.find(
 ).pretty();
 
 // 10. Retorne somente o título de todos os filmes com dois elementos no array category.
-
+use("class");
+db.movies.find(
+  {
+    category: {
+      $size: 2,
+    },
+  },
+  {
+    _id: 0,
+    title: 1,
+  },
+).pretty();
 
 // 11. Retorne somente o título de todos os filmes com quatro elementos no array ratings.
 
