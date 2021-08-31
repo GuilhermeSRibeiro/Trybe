@@ -90,7 +90,30 @@ db.movies.find();
 // {
 //   "actor": "Daniel Stern"
 // }
-
+use("class");
+db.movies.updateMany(
+  { title: "Home Alone" },
+  {
+    $push: {
+      cast: {
+        $each: [
+          {
+            "actor": "Macaulay Culkin",
+            "character": "Kevin",
+          },
+          {
+            "actor": "Joe Pesci",
+            "character": "Harry",
+          },
+          {
+            "actor": "Daniel Stern",
+          },
+        ],
+      },
+    },
+  },
+);
+db.movies.find();
 
 // Exercício 9: Adicione o campo character com o valor Marv ao array de cast em que o campo actor seja igual a Daniel Stern no filme Home Alone.
 // Dica: Para isso, leia aqui sobre o operador $.
