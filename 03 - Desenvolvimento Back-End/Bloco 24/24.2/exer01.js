@@ -64,7 +64,19 @@ db.movies.updateOne(
 db.movies.find();
 
 // Exercício 7: Adicione a categoria "90's" aos filmes Batman e Home Alone.
-
+use("class");
+db.movies.updateMany(
+  {
+    $or: [
+      { title: "Batman" },
+      { title: "Home Alone" },
+    ],
+  },
+  {
+    $push: { category: "90's" },
+  },
+);
+db.movies.find();
 
 // Exercício 8: Crie um array de documentos chamado cast para o filme Home Alone com os seguintes dados:
 // {
