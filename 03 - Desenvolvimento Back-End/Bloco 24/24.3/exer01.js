@@ -283,7 +283,9 @@ db.movies.find(
 ).pretty();
 
 // 20. Crie um índice do tipo text no campo description.
-
+use("class");
+db.movies.createIndex({ description: "text" });
+db.movies.find();
 
 // 21. Utilizando o operador $text, busque por filmes que contenham o termo "vacation".
 
