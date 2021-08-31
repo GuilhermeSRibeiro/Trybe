@@ -179,7 +179,27 @@ db.movies.find(
 ).pretty();
 
 // 13. Retorne os filmes da categoria "sci-fi" ou que possua o ratings maior do que 199, exibindo apenas os campos title, ratings e category.
-
+use("class");
+db.movies.find(
+  {
+    $or: [
+      { category: "sci-fi" },
+      {
+        ratings: {
+          $elemMatch: {
+            $gt: 199,
+          },
+        },
+      },
+    ],
+  },
+  {
+    _id: 0,
+    title: 1,
+    ratings: 1,
+    category: 1,
+  },
+).pretty();
 
 // 14. Retorne os filmes em que o ratings possua tamanho 4 e que seja da category "adventure" ou "family", mas que não tenha o imdbRating menor que 7.
 
