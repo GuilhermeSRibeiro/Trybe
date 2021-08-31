@@ -308,4 +308,11 @@ db.movies.find(
 ).pretty();
 
 // 23. Utilizando o operador $text, busque por filmes que contenham a frase "when he is accidentally".
-
+use("class");
+db.movies.find(
+  {
+    $text: {
+      $search: "\"when he is accidentally\"",
+    },
+  },
+).pretty();
