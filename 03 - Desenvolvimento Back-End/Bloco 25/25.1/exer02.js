@@ -32,4 +32,17 @@ db.transactions.aggregate([
 ]);
 
 // 4. Selecione os bancos que têm o valor total de transações maior que 1000.
-
+use("agg_example");
+db.transactions.aggregate([
+  {
+    $group: {
+      _id: "$bank",
+      "total transações": { $sum: "$value" },
+    },
+  },
+  {
+    $match: {
+      "total transações": { $gt: 1000 },
+    },
+  },
+]);
