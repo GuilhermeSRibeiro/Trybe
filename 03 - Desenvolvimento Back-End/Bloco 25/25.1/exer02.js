@@ -1,5 +1,12 @@
 // 1. Selecione todos os bancos, ou seja, valores do campo bank;
-
+use("agg_example");
+db.transactions.aggregate(
+  {
+    $group: {
+      _id: "$bank",
+    },
+  },
+);
 
 // 2. Selecione o valor total das transações em cada banco e quantas são;
 
