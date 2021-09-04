@@ -135,7 +135,35 @@ db.vendas.aggregate([
 ]);
 
 // Exercício 9: Descubra quais são os 10 clientes que gastaram o maior valor no ano de 2019.
-
+use("erp");
+db.vendas.aggregate([
+  {
+    $match: {
+      status: {
+        $in: ["ENTREGUE", 'EM SEPARACAO'],
+      },
+      dataVenda: {
+        $gte: ISODate("2019-01-01"),
+        $lte: ISODate("2019-12-31"),
+      },
+    },
+  },
+  {
+    $sort: {
+      valorTotal: -1,
+    },
+  },
+  {
+    $limit: 10,
+  },
+  {
+    $project: {
+      _id: 0,
+      Cliente: "$clienteId",
+      Total: "$valorTotal",
+    },
+  },
+]);
 
 // Exercício 10: Descubra quantos clientes compraram mais de 5 vezes. Retorne um documento que contenha somente o campo clientes com o total de clientes.
 // Dica: O operador $count pode simplificar sua query.
