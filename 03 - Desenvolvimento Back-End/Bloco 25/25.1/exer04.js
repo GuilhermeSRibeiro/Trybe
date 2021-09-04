@@ -86,7 +86,26 @@ db.clientes.aggregate([
   "total": 100
 }
 */
-
+use("erp");
+db.clientes.aggregate([
+  {
+    $group: {
+      _id: {
+        sexo: "$sexo",
+        uf: "$endereco.uf",
+      },
+      total: { $sum: 1 },
+    },
+  },
+  {
+    $project: {
+      _id: 0,
+      estado: "$_id.uf",
+      sexo: "$_id.sexo",
+      total: "$total",
+    },
+  },
+]);
 
 // Exercício 8: Descubra quais são os 5 clientes que gastaram o maior valor.
 
