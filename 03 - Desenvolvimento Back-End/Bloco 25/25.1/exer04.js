@@ -108,7 +108,31 @@ db.clientes.aggregate([
 ]);
 
 // Exercício 8: Descubra quais são os 5 clientes que gastaram o maior valor.
-
+use("erp");
+db.vendas.aggregate([
+  {
+    $match: {
+      status: {
+        $in: ["ENTREGUE", 'EM SEPARACAO'],
+      },
+    },
+  },
+  {
+    $sort: {
+      valorTotal: -1,
+    },
+  },
+  {
+    $limit: 5,
+  },
+  {
+    $project: {
+      _id: 0,
+      Cliente: "$clienteId",
+      Total: "$valorTotal",
+    },
+  },
+]);
 
 // Exercício 9: Descubra quais são os 10 clientes que gastaram o maior valor no ano de 2019.
 
