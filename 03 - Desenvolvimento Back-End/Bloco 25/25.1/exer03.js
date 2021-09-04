@@ -30,4 +30,20 @@ db.clients.aggregate([
 ]);
 
 // 3. Selecione todos os cliente do estado da "Florida" e suas respectivas transações recebidas.
-
+use("agg_example");
+db.transactions.find();
+db.clients.aggregate([
+  {
+    $match: {
+      State: "Florida",
+    },
+  },
+  {
+    $lookup: {
+      from: "transactions",
+      localField: "name",
+      foreignField: "from",
+      as: "teste",
+    },
+  },
+]);
