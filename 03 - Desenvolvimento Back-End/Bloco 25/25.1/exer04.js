@@ -219,7 +219,42 @@ db.vendas.aggregate([
   "uf": "SP"
 }
 */
-
+use("erp");
+db.vendas.aggregate([
+  {
+    $match: {
+      status: {
+        $in: ["ENTREGUE", "EM SEPARACAO"],
+      },
+      dataVenda: {
+        $gte: ISODate('2020-01-01'),
+        $lte: ISODate('2020-12-31'),
+      },
+    },
+  },
+  {
+    $lookup: {
+      from: "clientes",
+      localField: "clienteId",
+      foreignField: "clienteId",
+      as: "cliente",
+    },
+  },
+  {
+    $group: {
+      _id: "$cliente.endereco.uf",
+      totalVendas: { $sum: 1 },
+    },
+  },
+  { $unwind: "$_id" },
+  {
+    $project: {
+      _id: 0,
+      totalVendas: "$totalVendas",
+      uf: "$_id",
+    },
+  },
+]);
 
 // Exercício 13: Encontre qual foi o total de vendas e a média de vendas de cada uf no ano de 2019. Ordene os resultados pelo nome da uf. Retorne os documentos no seguinte formato:
 /*
