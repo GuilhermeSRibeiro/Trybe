@@ -11,4 +11,15 @@ db.products.aggregate([
 ]);
 
 // 2. Retorne o maior número inteiro relativo ao lucro total sobre cada produto. Nota: Desconsiderar taxas (taxes).
-
+db.products.aggregate([
+  {
+    $project: {
+      nome: '$name',
+      'maior valor relativo': {
+        $ceil: {
+          $subtract: ['$sale_price', '$purchase_price'],
+        },
+      },
+    },
+  },
+]);
