@@ -13,7 +13,7 @@ db.clients.aggregate([
           },
         },
       ],
-      as: 'teste',
+      as: 'transações_feitas',
     },
   },
 ]);
