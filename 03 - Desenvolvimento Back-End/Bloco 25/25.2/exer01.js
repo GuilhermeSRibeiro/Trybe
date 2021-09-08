@@ -43,4 +43,26 @@ db.clients.aggregate([
 ]);
 
 // 3. Selecione todos os cliente do estado da "Florida" e suas respectivas transações recebidas.
-
+db.clients.aggregate([
+  {
+    $match: {
+      State: 'Florida',
+    },
+  },
+  {
+    $lookup: {
+      from: 'transactions',
+      let: { nome: '$name' },
+      pipeline: [
+        {
+          $match: {
+            $expr: {
+              $eq: ['$to', '$$nome'],
+            },
+          },
+        },
+      ],
+      as: 'transações_recenidas',
+    },
+  },
+]);
