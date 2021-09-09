@@ -5,7 +5,25 @@ Algumas dicas:
   calcule a idade usando a diferença entre a data corrente e a data de nascimento;
   1 dia é igual a 86400000 milissegundos.
 */
-
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $floor: {
+          $divide: [
+            {
+              $subtract: [
+                new Date(),
+                '$dataNascimento',
+              ],
+            },
+            86400000 * 365,
+          ],
+        },
+      },
+    },
+  },
+]);
 
 // Exercício 2: Utilizando o novo campo idade, conte quantos clientes têm entre 18 e 25 anos.
 
