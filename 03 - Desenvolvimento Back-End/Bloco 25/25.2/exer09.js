@@ -136,7 +136,47 @@ db.clientes.aggregate([
 ]);
 
 // Exercício 5: Confira o número de documentos retornados pelo pipeline com o método itcount(). Até aqui, você deve ter 486 documentos sendo retornados.
-
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $floor: {
+          $divide: [
+            {
+              $subtract: [
+                new Date(),
+                '$dataNascimento',
+              ],
+            },
+            86400000 * 365,
+          ],
+        },
+      },
+    },
+  },
+  {
+    $lookup: {
+      from: 'vendas',
+      localField: 'clienteId',
+      foreignField: 'clienteId',
+      as: 'compras',
+    },
+  },
+  {
+    $project: {
+      'compras._id': 0,
+      'compras.clienteId': 0,
+    },
+  },
+  {
+    $match: {
+      'compras.dataVenda': {
+        $gte: ISODate('2019-06-01'),
+        $lte: ISODate('2020-03-31'),
+      },
+    },
+  },
+]).itcount();
 
 // Exercício 6: Ainda nesse pipeline, descubra os 5 estados com mais compras.
 
