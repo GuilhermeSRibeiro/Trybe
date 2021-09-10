@@ -88,8 +88,6 @@ db.clientes.aggregate([
     $project: {
       'compras._id': 0,
       'compras.clienteId': 0,
-      'compras.dataVenda': 0,
-      'compras.status': 0,
     },
   },
 ]);
