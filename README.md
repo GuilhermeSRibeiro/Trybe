@@ -168,7 +168,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 22: Normalização e modelagem de banco de dados
 
-- [x] 22.1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22.1: _Transformando ideias em um modelo de banco de dados - Parte 1_
 - [x] 22.2: _Normalização, formas normais e dumps_
 - [x] 22.3: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [x] 22.4: _[Projeto - One for all](https://github.com/tryber/sd-010-b-mysql-one-for-all/pull/123)_
@@ -198,10 +198,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 26.1: _Intro - NodeJS_
 - [ ] 26.1: _NodeJS - Introdução_
 - [ ] 26.2: _NodeJS - Fluxo assí­ncrono_
-- [ ] 26.3: _NodeJS - Arquitetura_
+- [ ] 26.3: _Testes com NodeJS_
 - [ ] 26.4: _Express - HTTP com Node.js_
-- [ ] 26.5: Praticando Express
-<!-- - [ ] 26.6: _[Projeto - Crush manager]()_ -->
+- [ ] 26.5: _Express - Middlewares_
+<!-- - [ ] 26.6: _[Projeto - Talker manager]()_ -->
 
 ##### Bloco 27: NodeJS - Camada de serviço e arquitetura Rest e Restful
 
@@ -209,13 +209,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 27.1: _Arquitetura de software - Camada de model_
 - [ ] 27.2: _Arquitetura de Software - Camada de controller e service_
 - [ ] 27.3: _Arquitetura web - Rest e Restful_
-<!-- - [ ] 27.4: _[Projeto - Store manager]()_ -->
+- [ ] 27.4: _Arquitetura de Software - Testando as camadas_
+<!-- - [ ] 27.5: _[Projeto - Store manager]()_ -->
 
 ##### Bloco 28: Autenticação e upload de arquivos
 
 - [ ] 28-1: _NodeJS - JWT (JSON Web Token)_
 - [ ] 28-2: _NodeJS - Upload de arquivos com multer_
-<!-- - [ ] 28-3: _[Projeto - Cook master]()_ -->
+- [ ] 28-3: _NodeJS - Testando APIs com testes de integração_
+<!-- - [ ] 28-4: _[Projeto - Cook master]()_ -->
 
 ##### Bloco 29: Deployment
 
@@ -224,28 +226,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 29-2: _Deploy - Gerenciadores de processos_
 <!-- - [ ] 29-3: _[Projeto - Stranger things]()_ -->
 
-##### Bloco 30: Projeto - Trybeer
+##### Bloco 30: Arquitetura - SOLID e ORM
 
-<!-- - [ ] 30-1: _[Projeto - Trybeer]()_ -->
+- [ ] 30-1: _Arquitetura - Princí­pios SOLID_
+- [ ] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 30-3: _ORM - Associations_
+<!-- - [ ] 31-4: _[Projeto - Blogging API]()_ -->
 
-##### Bloco 31: Arquitetura - SOLID e ORM
+##### Bloco 31: Sockets
 
-- [ ] 31-1: _Arquitetura - Princí­pios SOLID_
-- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _ORM - Associations_
-- [ ] 31-4: _Boas práticas na escrita de testes_
-<!-- - [ ] 31-5: _[Projeto - Blogging API]()_ -->
+- [ ] 31-1: _Arquitetura de software - Camada de view_
+- [ ] 31-2: _Sockets - TCP/UDP e NET_
+- [ ] 31-3: _Sockets - Socket.io_
+- [ ] 31-4: _Sockets - Praticando Socket.io_
+<!-- - [ ] 31-5: _[Projeto - Web chat]()_ -->
 
-##### Bloco 32: Sockets
+##### Bloco 32: Projeto App de delivery
 
-- [ ] 32-1: _Arquitetura de software - Camada de view_
-- [ ] 32-2: _Sockets - TCP/UDP e NET_
-- [ ] 32-3: _Sockets - Socket.io_
-<!-- - [ ] 32-4: _[Projeto - Web chat]()_ -->
-
-##### Bloco 33: Projeto Trybeer II
-
-<!-- - [ ] 33-1: _[Projeto - Trybeer II]()_ -->
+<!-- - [ ] 32-1: _[Projeto - Delivery app]()_ -->
 
 
 ## Ciência da Computação :hourglass_flowing_sand:
