@@ -58,7 +58,41 @@ db.clientes.aggregate([
 ]);
 
 // Exercício 3: Remova os estágios $count e $match do exercício anterior e adicione um estágio no pipeline que coloque as compras do cliente no campo compras.
-
+db.clientes.aggregate([
+  {
+    $addFields: {
+      idade: {
+        $floor: {
+          $divide: [
+            {
+              $subtract: [
+                new Date(),
+                '$dataNascimento',
+              ],
+            },
+            86400000 * 365,
+          ],
+        },
+      },
+    },
+  },
+  {
+    $lookup: {
+      from: 'vendas',
+      localField: 'clienteId',
+      foreignField: 'clienteId',
+      as: 'compras',
+    },
+  },
+  {
+    $project: {
+      'compras._id': 0,
+      'compras.clienteId': 0,
+      'compras.dataVenda': 0,
+      'compras.status': 0,
+    },
+  },
+]);
 
 // Exercício 4: Selecione TODOS os clientes que compraram entre Junho de 2019 e Março de 2020.
 
