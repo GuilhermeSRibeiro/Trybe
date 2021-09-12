@@ -191,7 +191,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 25.1: _Aggregation framework - Part 1_
 - [x] 25.2: _Aggregation framework - Part 2_
-<!-- - [ ] 25.3: _[Projeto - Aggregations]()_ -->
+- [x] 25.3: _[Projeto - Aggregations](https://github.com/tryber/sd-010-b-mongodb-aggregations/pull/132)_
 
 ##### Bloco 26: Introdução ao desenvolvimento web com NodeJS
 
