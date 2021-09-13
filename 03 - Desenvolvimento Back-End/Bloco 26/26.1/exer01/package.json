@@ -8,5 +8,8 @@
     "start": "node imc.js"
   },
   "author": "Guilherme Ribeiro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
