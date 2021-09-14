@@ -1,6 +1,6 @@
 const readline = require('readline-sync');
 
-const table = ["1 - IMC","2 - Velocidade","3 - Sorteio", "4 - Fatorial"];
+const table = ["1 - IMC","2 - Velocidade","3 - Sorteio", "4 - Fatorial","5 - Fibonacci"];
 
 console.log(table);
 
@@ -18,6 +18,9 @@ switch (answer) {
     break;
   case 4:
     require('./fatorial');
+    break;
+  case 5:
+    require('./fibonacci');
     break;
   default:
     console.log('Script não encontrado!');
