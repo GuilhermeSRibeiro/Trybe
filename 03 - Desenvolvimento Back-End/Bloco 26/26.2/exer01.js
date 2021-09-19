@@ -36,7 +36,16 @@ quest01(a, b, c)
 
 // 3. Reescreva o código do exercício anterior para que utilize async/await.
 // Lembre-se: a palavra chave await só pode ser utilizada dentro de funções async.
-
+async function quest03() {
+  try {
+    const resultado = await quest01(a, b, c);
+    console.log(resultado);
+    console.log('aqui');
+  } catch (e) {
+    console.error(e);
+  };
+};
+quest03();
 
 // 4. Realize o download deste arquivo e salve-o como simpsons.json. Utilize o arquivo baixado para realizar os requisitos abaixo.
   // Você pode utilizar then e catch, async/await ou uma mistura dos dois para escrever seu código. Procure não utilizar callbacks.
