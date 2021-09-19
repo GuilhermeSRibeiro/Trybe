@@ -26,7 +26,13 @@ quest01(1, 2, 3)
   // Utilize then e catch para manipular a Promise retornada pela função:
     // Caso a Promise seja rejeitada, escreva na tela o motivo da rejeição.
     // Caso a Promise seja resolvida, escreva na tela o resultado do cálculo.
+const a = Math.floor(Math.random() * 100 + 1);
+const b = Math.floor(Math.random() * 100 + 1);
+const c = Math.floor(Math.random() * 100 + 1);
 
+quest01(a, b, c)
+  .then(resolve => console.log(resolve))
+  .catch(reject => console.log(reject));
 
 // 3. Reescreva o código do exercício anterior para que utilize async/await.
 // Lembre-se: a palavra chave await só pode ser utilizada dentro de funções async.
