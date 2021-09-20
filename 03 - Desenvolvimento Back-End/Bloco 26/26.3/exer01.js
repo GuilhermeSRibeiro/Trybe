@@ -45,6 +45,18 @@ describe('Verifica se o número é positivo, neutro ou negativo', () => {
       });
     });
   });
+  describe('Quando não é passado um número', () => {
+    describe('A resposta é', () => {
+      it('Uma string', () => {
+        const resposta = funcNumero('palavra');
+        expect(resposta).to.be.a('string');
+      });
+      it('Igual a "o valor deve ser um número"', () => {
+        const resposta = funcNumero('palavra');
+        expect(resposta).to.be.iquals('o valor deve ser um número');
+      });
+    });
+  });
 });
 
 /* Exercício 2: Implemente a função apresentada no Exercício 1, garantindo que ela irá passar em todos os testes que você escreveu.
@@ -71,6 +83,24 @@ module.exports = funcNumero;
   2. Adicione uma asserção para esperar que o valor retornado para esse caso seja igual uma string "o valor deve ser um número";
   3. Implemente em sua função tal validação para que o teste passe. */
 
+  function funcNumero(number) {
+    if (typeof number !== 'number') {
+      return 'o valor deve ser um número';
+    }
+    switch (true) {
+      case (number > 0):
+        'positivo';
+        break;
+      case (number === 0):
+        'neutro';
+        break;
+      default:
+        'negativo';
+        break;
+    }
+  };
+  
+  module.exports = funcNumero;
 
 /* Exercício 4 Crie testes para uma função que escreverá um conteúdo em um arquivo específico.
     * Essa função deverá receber dois parâmetros: o nome do arquivo e o conteúdo desse arquivo.
