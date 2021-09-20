@@ -5,6 +5,26 @@
   2. Descreva todos os testes que serão feitos utilizando its;
   3. Crie as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado. */
 
+describe('Verifica se o número é positivo, neutro ou negativo', () => {
+  describe('Quando o número é maior que zero', () => {
+    describe('A resposta é', () => {
+      it('Uma string', () => {});
+      it('É "positivo".', () => {});
+    });
+  });
+  describe('Quando o número é igual a zero', () => {
+    describe('A resposta é', () => {
+      it('Uma string', () => {});
+      it('É "neutro".', () => {});
+    });
+  });
+  describe('Quando o número é menor que zero', () => {
+    describe('A resposta é', () => {
+      it('Uma string', () => {});
+      it('É "negativo".', () => {});
+    });
+  });
+});
 
 /* Exercício 2: Implemente a função apresentada no /* Exercício 1, garantindo que ela irá passar em todos os testes que você escreveu.
   DICA: Lembre-se de adicionar o script de test no package.json e de instalar as dependências. */
