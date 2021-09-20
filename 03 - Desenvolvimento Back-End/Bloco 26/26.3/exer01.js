@@ -5,11 +5,20 @@
   2. Descreva todos os testes que serão feitos utilizando its;
   3. Crie as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado. */
 
+const funcNumero = require('./funcNumero');
+const { expect } = require('chai');
+
 describe('Verifica se o número é positivo, neutro ou negativo', () => {
   describe('Quando o número é maior que zero', () => {
     describe('A resposta é', () => {
-      it('Uma string', () => {});
-      it('É "positivo".', () => {});
+      it('Uma string', () => {
+        const resposta = funcNumero(1);
+        expect(resposta).to.be.a('string');
+      });
+      it('É "positivo".', () => {
+        const resposta = funcNumero(1);
+        expect(resposta).to.be.iquals('positivo');
+      });
     });
   });
   describe('Quando o número é igual a zero', () => {
