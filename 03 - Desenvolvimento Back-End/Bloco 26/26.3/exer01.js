@@ -23,8 +23,14 @@ describe('Verifica se o número é positivo, neutro ou negativo', () => {
   });
   describe('Quando o número é igual a zero', () => {
     describe('A resposta é', () => {
-      it('Uma string', () => {});
-      it('É "neutro".', () => {});
+      it('Uma string', () => {
+        const resposta = funcNumero(0);
+        expect(resposta).to.be.a('string');
+      });
+      it('É "neutro".', () => {
+        const resposta = funcNumero(0);
+        expect(resposta).to.be.iquals('neutro');
+      });
     });
   });
   describe('Quando o número é menor que zero', () => {
