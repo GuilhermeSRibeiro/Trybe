@@ -47,9 +47,24 @@ describe('Verifica se o número é positivo, neutro ou negativo', () => {
   });
 });
 
-/* Exercício 2: Implemente a função apresentada no /* Exercício 1, garantindo que ela irá passar em todos os testes que você escreveu.
+/* Exercício 2: Implemente a função apresentada no Exercício 1, garantindo que ela irá passar em todos os testes que você escreveu.
   DICA: Lembre-se de adicionar o script de test no package.json e de instalar as dependências. */
 
+function funcNumero(number) {
+  switch (true) {
+    case (number > 0):
+      'positivo';
+      break;
+    case (number === 0):
+      'neutro';
+      break;
+    default:
+      'negativo';
+      break;
+  }
+};
+
+module.exports = funcNumero;
 
 /* Exercício 3 Adicione à função um tratamento para casos em que o parâmetro informado não seja do tipo Number.
   1. Adicione o cenário em seu arquivo de testes, passando um valor de tipo diferente a Number para a função;
