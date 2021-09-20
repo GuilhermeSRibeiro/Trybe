@@ -35,8 +35,14 @@ describe('Verifica se o número é positivo, neutro ou negativo', () => {
   });
   describe('Quando o número é menor que zero', () => {
     describe('A resposta é', () => {
-      it('Uma string', () => {});
-      it('É "negativo".', () => {});
+      it('Uma string', () => {
+        const resposta = funcNumero(-1);
+        expect(resposta).to.be.a('string');
+      });
+      it('É "negativo".', () => {
+        const resposta = funcNumero(-1);
+        expect(resposta).to.be.iquals('negativo');
+      });
     });
   });
 });
