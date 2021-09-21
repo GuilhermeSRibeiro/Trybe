@@ -7,5 +7,5 @@ app.listen(3001, () => {
 });
 
 function handleHelloWorldRequest(req, res) {
-  res.status(200).send('Hello world!');
+  res.status(200).send('Olá mundo!');
 };
