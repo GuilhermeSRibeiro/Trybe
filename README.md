@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 03.2: _HTML e CSS - Primeiros passos em CSS_
 - [x] 03.3: _HTML e CSS - Seletores e posicionamento_
 - [x] 03.4: _HTML semântico_
-<!-- - [ ] 03.5: _[Projeto - Lessons learned]()_ -->
+- [x] 03.5: _[Projeto - Lessons learned](https://github.com/tryber/sd-08-project-lessons-learned/pull/139)_
 
 ##### Bloco 04: Introdução à JavaScript e lógica de programação
 
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 04.2: _JavaScript - Array e loop for_
 - [ ] 04.3: _JavaScript - Lógica de programação e algoritmos_
 - [ ] 04.4: _JavaScript - Objetos e funções_
-<!-- - [ ] 04.5: _[Projeto - Playground functions]()_ -->
+- [x] 04.5: _[Projeto - Playground functions](https://github.com/tryber/sd-08-project-playground-function/pull/87)_
 
 ##### Bloco 05: JavaScript - DOM, eventos e web store
 
@@ -44,8 +44,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 05.2: _JavaScript - Trabalhando com elementos_
 - [ ] 05.3: _JavaScript - Eventos_
 - [ ] 05.4: _JavaScript - Web storage_
-<!-- - [ ] 05.5: _[Projeto - Pixels art]()_ -->
-<!-- - [ ] 05.6: _[Projeto - To do list]()_ -->
+- [x] 05.5: _[Projeto - Pixels art](https://github.com/tryber/sd-08-project-pixels-art/pull/91)_
+- [x] 05.6: _[Projeto - To do list](https://github.com/tryber/sd-08-project-todo-list/pull/105)_
 <!-- - [ ] 05.7: _[Projeto - Meme generator]()_ -->
 <!-- - [ ] 05.8: _[Projeto - Guess the color]()_ -->
 <!-- - [ ] 05.9: _[Projeto - Mysterious letter]()_ -->
@@ -57,7 +57,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 06.3: _CSS flexbox - Part 1_
 - [ ] 06.4: _CSS flexbox - Part 2_
 - [ ] 06.5: _CSS responsivo - Mobile first_
-<!-- - [ ] 06.6: _[Projeto - Facebook homepage]()_ -->
+- [x] 06.6: _[Projeto - Facebook homepage](https://github.com/tryber/sd-08-project-facebook-signup/pull/116)_
 <!-- - [ ] 06.7: _[Projeto - Trybewarts]()_ -->
 
 ##### Bloco 07: Introdução à JavaScript ES6 e testes unitários
@@ -65,7 +65,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 07.1: _JavaScript ES6 - Let, const, arrow functions e template literals_
 - [ ] 07.2: _JavaScript ES6 - Objects_
 - [ ] 07.3: _Testes unitários em JavaScript_
-<!-- - [ ] 07.4: _[Projeto - JavaScript unit tests]()_ -->
+- [x] 07.4: _[Projeto - JavaScript unit tests](https://github.com/tryber/sd-08-project-js-unit-tests/pull/84)_
 
 ##### Bloco 08: Higher order functions de JavaScript ES6
 
@@ -74,20 +74,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 08.3: _JavaScript ES6 - Higher Order Functions - Map e filter_
 - [ ] 08.4: _JavaScript ES6 - Higher Order Functions - Reduce_
 - [ ] 08.5: _JavaScript ES6 - Spread operator, rest parameter, destructuring e mais_
-<!-- - [ ] 08.6: _[Projeto - Zoo functions]()_ -->
+- [x] 08.6: _[Projeto - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/95)_
 
 ##### Bloco 09: JavaScript assíncrono e promises
 
 - [ ] 09.1: _JavaScript assíncrono e callbacks_
 - [ ] 09.2: _JavaScript promises_
-<!-- - [ ] 09.3: _[Projeto - Shopping cart]()_ -->
+- [x] 09.3: _[Projeto - Shopping cart](https://github.com/tryber/sd-08-project-shopping-cart/pull/78)_
 
 ##### Bloco 10: Testes unitários com Jest
 
 - [ ] 10.1: _Primeiros passos no Jest_
 - [ ] 10.2: _Jest - Testes assíncronos_
 - [ ] 10.3: _Jest - Simulando comportamentos_
-<!-- - [ ] 10.4: _[Projeto - Asynchronous Jest and mocking]()_ -->
+- [x] 10.4: _[Projeto - Asynchronous Jest and mocking](https://github.com/tryber/sd-08-project-jest/pull/100)_
 
 ## Desenvolvimento Front-End :hourglass_flowing_sand:
 
@@ -97,31 +97,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 11.1: _Introdução - React_
 - [ ] 11.1: _'Hello, world!' no React!_
 - [ ] 11.2: _Componentes React_
-<!-- - [ ] 11.3: _[Projeto - Movie cards library]()_ -->
+- [x] 11.3: _[Projeto - Movie cards library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/152)_
 
 ##### Bloco 12: Componentes com estado, eventos e formulários com React
 
 - [ ] 12.1: _Components com estado e eventos_
 - [ ] 12.2: _Formulários no React_
-<!-- - [ ] 12.3: _[Projeto - Movie cards library stateful]()_ -->
+- [x] 12.3: _[Projeto - Movie cards library stateful](https://github.com/tryber/sd-08-project-movie-cards-library-stateful/pull/147)_
 
 ##### Bloco 13: Ciclo de vida de componentes e React router
 
 - [ ] 13.1: _Ciclo de vida de componentes_
 - [ ] 13.2: _React router_
-<!-- - [ ] 13.3: _[Projeto - Movie cards library CRUD]()_ -->
+- [x] 13.3: _[Projeto - Movie cards library CRUD](https://github.com/tryber/sd-010-b-project-movie-card-library-crud/pull/112)_
 
 ##### Bloco 14: Metodologias Ágeis
 
 - [ ] 14.1: _Metodologias ágeis_
-<!-- - [ ] 14.2: _[Projeto - Front-End online store]()_ -->
+- [x] 14.2: _[Projeto - Front-End online store](https://github.com/tryber/sd-010-b-project-frontend-online-store/pull/418)_
 
 ##### Bloco 15: Testes automatizados com React Testing Library
 
 - [ ] 15.1: _RTL - Primeiros passos_
 - [ ] 15.2: _RTL - Mocks e inputs_
 - [ ] 15.3: _RTL - Testando React router_
-<!-- - [ ] 15.4: _[Projeto - Tests on React]()_ -->
+- [x] 15.4: _[Projeto - Tests on React](https://github.com/tryber/sd-010-b-project-react-testing-library/pull/133)_
 
 ##### Bloco 16: Gerenciamento de estados com Redux
 
@@ -130,7 +130,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16.3: _Usando o Redux no React - Prática_
 - [ ] 16.4: _Usando o Redux no React - Actions assíncronas_
 - [ ] 16.5: _Testes em React-Redux_
-<!-- - [ ] 16.6: _[Projeto - Trybe wallet]()_ -->
+- [x] 16.6: _[Projeto - Trybe wallet](https://github.com/tryber/sd-010-b-project-trybewallet/pull/130)_
 
 ##### Bloco 17: Projeto jogo de trivia
 
@@ -141,7 +141,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 18.1: _Context API do React_
 - [ ] 18.2: _React Hooks - UseState e useContext_
 - [ ] 18.3: _React Hooks - UseEffect e Hooks customizados_
-<!-- - [ ] 18.4: _[Projeto - Star Wars data table with context API and hooks]()_ -->
+- [x] 18.4: _[Projeto - Star Wars data table with context API and hooks](https://github.com/tryber/sd-010-b-project-starwars-planets-search/pull/103)_
 
 ##### Bloco 19: Projeto app de receitas
 
