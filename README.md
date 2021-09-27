@@ -221,7 +221,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Deployment
 
-- [ ] 29-1: _Introdução - Deploy_
+- [x] 29-1: _Introdução - Deploy_
 - [ ] 29-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 29-2: _Deploy - Gerenciadores de processos_
 <!-- - [ ] 29-3: _[Projeto - Stranger things]()_ -->
