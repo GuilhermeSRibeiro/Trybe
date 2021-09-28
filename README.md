@@ -141,7 +141,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 18.1: _Context API do React_
 - [ ] 18.2: _React Hooks - UseState e useContext_
 - [ ] 18.3: _React Hooks - UseEffect e Hooks customizados_
-- [x] 18.4: _[Projeto - Star Wars data table with context API and hooks](https://github.com/tryber/sd-010-b-project-starwars-planets-search/pull/103)_
+- [x] 18.4: _[Projeto - Star Wars data table with context API and hooks](https://github.com/tryber/sd-08-project-starwars-planets-search/pull/93)_
 
 ##### Bloco 19: Projeto app de receitas
 
