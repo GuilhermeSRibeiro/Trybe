@@ -24,7 +24,7 @@ const serialize = (authorData) => ({
 // Busca todos os autores do banco.
 
 async function getAll() {
-  const query = 'SELECT id, first_name, middle_name, last_name FROM model_example.authors;';
+  const query = 'SELECT id, first_name, middle_name, last_name FROM ModelExample.authors;';
   const [authors] = await connection.execute(query);
   return authors.map(serialize).map(getNewAuthor);
 };
