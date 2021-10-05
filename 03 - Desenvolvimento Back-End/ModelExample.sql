@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS model_example;
+CREATE DATABASE IF NOT EXISTS ModelExample;
 
-USE model_example;
+USE ModelExample;
 
 CREATE TABLE authors
 (
