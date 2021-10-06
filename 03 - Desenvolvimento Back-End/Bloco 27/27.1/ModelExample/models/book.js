@@ -12,6 +12,14 @@ async function getAll() {
   return books.map(serialize);
 };
 
+async function getByAuthorId(author_id) {
+  // const query = `SELECT * FROM ModelExample.books WHERE author_id = ${author_id};`;
+  const query = 'SELECT * FROM ModelExample.books WHERE author_id=?;';
+  const [books] = await connection.execute(query, [author_id]);
+  return books.map(serialize);
+};
+
 module.exports = {
   getAll,
+  getByAuthorId,
 };
