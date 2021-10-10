@@ -2,3 +2,5 @@
 # arquivo.extenção //ignora apenas o arquivo específico.
 # diretório/ //ignora um diretório inteiro e todos os seus arquivos internos.
 # DICA: toptal.com/developers/gitignore.
+
+READMEANTIGO.md
