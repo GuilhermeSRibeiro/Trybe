@@ -8,243 +8,243 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 ##### Bloco 01: Unix & Bash
-- [ ] 01-03: Fundamentos do Desenvolvimento Web
-- [ ] 01-03: Introdução - Unix & Shell
-- [ ] 01-03: Unix & Bash - Parte 1
-- [ ] 01-04: Unix & Bash - Parte 2
+- [ ] 01-03: _Fundamentos do Desenvolvimento Web_
+- [ ] 01-03: _Introdução - Unix & Shell_
+- [ ] 01-03: _Unix & Bash - Parte 1_
+- [ ] 01-04: _Unix & Bash - Parte 2_
 
 ##### Bloco 02: Git, GitHub e Internet
-- [ ] 02-01: Git & GitHub - O que é e para que serve
-- [ ] 02-02: Git & GitHub - Entendendo os comandos
-- [ ] 02-03: Internet - Entendendo como ela funciona
+- [ ] 02-01: _Git & GitHub - O que é e para que serve_
+- [ ] 02-02: _Git & GitHub - Entendendo os comandos_
+- [ ] 02-03: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 03: Introdução à HTML e CSS
-- [ ] 03-01: Introdução - HTML & CSS
-- [ ] 03-01: HTML & CSS - Estruturas de página
-- [ ] 03-02: HTML & CSS - Primeiros passos em CSS
-- [ ] 03-03: HTML & CSS - Seletores e posicionamento
-- [ ] 03-04: HTML Semântico
-- [ ] 03-05: Projeto - Lessons Learned
+- [ ] 03-01: _Introdução - HTML & CSS_
+- [ ] 03-01: _HTML & CSS - Estruturas de página_
+- [ ] 03-02: _HTML & CSS - Primeiros passos em CSS_
+- [ ] 03-03: _HTML & CSS - Seletores e posicionamento_
+- [ ] 03-04: _HTML Semântico_
+- [ ] 03-05: _[Projeto - Lessons Learned]()_
 
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
-- [ ] 04-01: Introdução - JavaScript
-- [ ] 04-01: JavaScript - Primeiros passos
-- [ ] 04-02: JavaScript - Array e loop For
-- [ ] 04-03: JavaScript - Lógica de Programação e Algoritmos
-- [ ] 04-04: JavaScript - Objetos e funções
-- [ ] 04-05: Projeto - Playground Functions
+- [ ] 04-01: _Introdução - JavaScript_
+- [ ] 04-01: _JavaScript - Primeiros passos_
+- [ ] 04-02: _JavaScript - Array e loop For_
+- [ ] 04-03: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 04-04: _JavaScript - Objetos e funções_
+- [ ] 04-05: _[Projeto - Playground Functions]()_
 
 ##### Bloco 05: JavaScript: DOM, Eventos e Web Storage
-- [ ] 05-01: JavaScript - DOM e seletores
-- [ ] 05-02: JavaScript - Trabalhando com elementos
-- [ ] 05-03: JavaScript - Eventos
-- [ ] 05-04: JavaScript - Web Storage
-- [ ] 05-05: Fundamentos - JavaScript - Projetos
-- [ ] 05-05: Projeto - Arte com Pixels
-- [ ] 05-06: Projeto - Lista de tarefas
-- [ ] 05-07: (Bônus) Projeto - Meme Generator
-- [ ] 05-07: (Bônus) Projeto - Adivinhe a Cor
-- [ ] 05-07: (Bônus) Projeto - Carta Misteriosa
+- [ ] 05-01: _JavaScript - DOM e seletores_
+- [ ] 05-02: _JavaScript - Trabalhando com elementos_
+- [ ] 05-03: _JavaScript - Eventos_
+- [ ] 05-04: _JavaScript - Web Storage_
+- [ ] 05-05: _Fundamentos - JavaScript - Projetos_
+- [ ] 05-05: _[Projeto - Arte com Pixels]()_
+- [ ] 05-06: _[Projeto - Lista de tarefas]()_
+- [ ] 05-07: _[(Bônus) Projeto - Meme Generator]()_
+- [ ] 05-07: _[(Bônus) Projeto - Adivinhe a Cor]()_
+- [ ] 05-07: _[(Bônus) Projeto - Carta Misteriosa]()_
 
 ##### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] 06-01: HTML & CSS - Forms
-- [ ] 06-02: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 06-03: Introdução - CSS Flexbox
-- [ ] 06-03: CSS Flexbox - Parte 1
-- [ ] 06-04: CSS Flexbox - Parte 2
-- [ ] 06-05: CSS Responsivo - Mobile First
-- [ ] 06-06: Projeto - Trybewarts
+- [ ] 06-01: _HTML & CSS - Forms_
+- [ ] 06-02: _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 06-03: _Introdução - CSS Flexbox_
+- [ ] 06-03: _CSS Flexbox - Parte 1_
+- [ ] 06-04: _CSS Flexbox - Parte 2_
+- [ ] 06-05: _CSS Responsivo - Mobile First_
+- [ ] 06-06: _[Projeto - Trybewarts]()_
 
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
-- [ ] 07-01: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 07-02: JavaScript ES6 - Objects
-- [ ] 07-03: Primeiros passos em Jest
-- [ ] 07-04: Projeto - JavaScript Testes Unitários
+- [ ] 07-01: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 07-02: _JavaScript ES6 - Objects_
+- [ ] 07-03: _Primeiros passos em Jest_
+- [ ] 07-04: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
-- [ ] 08-01: JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 08-02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 08-03: JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 08-04: JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 08-05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 08-06: Projeto - Zoo functions
+- [ ] 08-01: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [ ] 08-02: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 08-03: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 08-04: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 08-05: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [ ] 08-06: _[Projeto - Zoo functions]()_
 
 ##### Bloco 09: JavaScript e Testes Assíncronos
-- [ ] 09-01: JavaScript Assíncrono e Callbacks
-- [ ] 09-02: JavaScript Assíncrono - Fetch API e async/await
-- [ ] 09-03: Jest - Testes Assíncronos
-- [ ] 09-04: Projeto - Carrinho de Compras
+- [ ] 09-01: _JavaScript Assíncrono e Callbacks_
+- [ ] 09-02: _JavaScript Assíncrono - Fetch API e async/await_
+- [ ] 09-03: _Jest - Testes Assíncronos_
+- [ ] 09-04: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-End :hourglass_flowing_sand:
 ##### Bloco 10: Introdução à React
-- [ ] 10-01: Introdução - Front-end
-- [ ] 10-01: Introdução - React
-- [ ] 10-01: 'Hello, world!' no React!
-- [ ] 10-02: Componentes React
-- [ ] 10-03: Projeto - Sistema Solar
+- [ ] 10-01: _Introdução - Front-end_
+- [ ] 10-01: _Introdução - React_
+- [ ] 10-01: _'Hello, world!' no React!_
+- [ ] 10-02: _Componentes React_
+- [ ] 10-03: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
-- [ ] 11-01: Componentes com estado e eventos
-- [ ] 11-02: Formulários no React
-- [ ] 11-03: Projeto - Tryunfo
+- [ ] 11-01: _Componentes com estado e eventos_
+- [ ] 11-02: _Formulários no React_
+- [ ] 11-03: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
-- [ ] 12-01: Ciclo de vida de componentes
-- [ ] 12-02: React Router
-- [ ] 12-03: Projeto - TrybeTunes
+- [ ] 12-01: _Ciclo de vida de componentes_
+- [ ] 12-02: _React Router_
+- [ ] 12-03: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 13: Metodologias Ágeis
-- [ ] 13-01: Metodologias Ágeis
-- [ ] 13-02: Projeto - Frontend Online Store
+- [ ] 13-01: _Metodologias Ágeis_
+- [ ] 13-02: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
-- [ ] 14-01: RTL - Primeiros passos
-- [ ] 14-02: RTL - Mocks e Inputs
-- [ ] 14-03: RTL - Testando React Router
-- [ ] 14-04: Projeto - Testes em React
+- [ ] 14-01: _RTL - Primeiros passos_
+- [ ] 14-02: _RTL - Mocks e Inputs_
+- [ ] 14-03: _RTL - Testando React Router_
+- [ ] 14-04: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
-- [ ] 15-01: Introdução ao Redux - O estado global da aplicação
-- [ ] 15-02: Usando o Redux no React
-- [ ] 15-03: Usando o Redux no React - Prática
-- [ ] 15-04: Usando o Redux no React - Actions Assíncronas
-- [ ] 15-05: Testes em React-Redux
-- [ ] 15-06: Projeto - Trybe Wallet
+- [ ] 15-01: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 15-02: _Usando o Redux no React_
+- [ ] 15-03: _Usando o Redux no React - Prática_
+- [ ] 15-04: _Usando o Redux no React - Actions Assíncronas_
+- [ ] 15-05: _Testes em React-Redux_
+- [ ] 15-06: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto Jogo de Trivia
-- [ ] 16-01: Projeto - Jogo de Trivia
+- [ ] 16-01: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: Context API e React Hooks
-- [ ] 17-01: Context API do React
-- [ ] 17-02: React Hooks - useState e useContext
-- [ ] 17-03: React Hooks - useEffect e Hooks customizados
-- [ ] 17-04: Projeto - StarWars Datatable com Context API e Hooks
+- [ ] 17-01: _Context API do React_
+- [ ] 17-02: _React Hooks - useState e useContext_
+- [ ] 17-03: _React Hooks - useEffect e Hooks customizados_
+- [ ] 17-04: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto App de Receitas
-- [ ] 18-01: Projeto - App de Receitas
+- [ ] 18-01: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-End :hourglass_flowing_sand:
 ##### Bloco 19: Introdução à SQL
-- [ ] 19-01: Introdução - Back-end
-- [ ] 19-01: Introdução - Bancos de dados relacionais
-- [ ] 19-01: Banco de dados SQL
-- [ ] 19-02: Encontrando dados em um banco de dados
-- [ ] 19-03: Filtrando dados de forma específica
-- [ ] 19-04: Manipulando tabelas
-- [ ] 19-05: Projeto - All For One
+- [ ] 19-01: _Introdução - Back-end_
+- [ ] 19-01: _Introdução - Bancos de dados relacionais_
+- [ ] 19-01: _Banco de dados SQL_
+- [ ] 19-02: _Encontrando dados em um banco de dados_
+- [ ] 19-03: _Filtrando dados de forma específica_
+- [ ] 19-04: _Manipulando tabelas_
+- [ ] 19-05: _[Projeto - All For One]()_
 
 ##### Bloco 20: Funções SQL, Joins e Subqueries
-- [ ] 20-01: Funções mais usadas no SQL
-- [ ] 20-02: Descomplicando JOINs, UNIONs e Subqueries
-- [ ] 20-03: Stored Routines & Stored Functions
-- [ ] 20-04: Projeto - Vocabulary Booster
+- [ ] 20-01: _Funções mais usadas no SQL_
+- [ ] 20-02: _Descomplicando JOINs, UNIONs e Subqueries_
+- [ ] 20-03: _Stored Routines & Stored Functions_
+- [ ] 20-04: _[Projeto - Vocabulary Booster]()_
 
 ##### Bloco 21: Normalização e Modelagem de Banco de Dados
-- [ ] 21-01: Transformando ideias em um modelo de banco de dados - Parte 1
-- [ ] 21-02: Normalização, Formas Normais e Dumps
-- [ ] 21-03: Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 21-04: Projeto - One For All
+- [ ] 21-01: _Transformando ideias em um modelo de banco de dados - Parte 1_
+- [ ] 21-02: _Normalização, Formas Normais e Dumps_
+- [ ] 21-03: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 21-04: _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução ao MongoDB
-- [ ] 22-01: Introdução - NoSQL
-- [ ] 22-01: MongoDB - Introdução
-- [ ] 22-02: Filter Operators
-- [ ] 22-03: Projeto - Data Flights
+- [ ] 22-01: _Introdução - NoSQL_
+- [ ] 22-01: _MongoDB - Introdução_
+- [ ] 22-02: _Filter Operators_
+- [ ] 22-03: _[Projeto - Data Flights]()_
 
 ##### Bloco 23: MongoDB: Updates Simples e Complexos
-- [ ] 23-01: Updates Simples
-- [ ] 23-02: Updates Complexos - Arrays - Parte 1
-- [ ] 23-03: Updates Complexos - Arrays - Parte 2
-- [ ] 23-04: Projeto - Commerce
+- [ ] 23-01: _Updates Simples_
+- [ ] 23-02: _Updates Complexos - Arrays - Parte 1_
+- [ ] 23-03: _Updates Complexos - Arrays - Parte 2_
+- [ ] 23-04: _[Projeto - Commerce]()_
 
 ##### Bloco 24: MongoDB: Aggregation Framework
-- [ ] 24-01: Aggregation Framework - Parte 1
-- [ ] 24-02: Aggregation Framework - Parte 2
-- [ ] 24-03: Projeto - Aggregations
+- [ ] 24-01: _Aggregation Framework - Parte 1_
+- [ ] 24-02: _Aggregation Framework - Parte 2_
+- [ ] 24-03: _[Projeto - Aggregations]()_
 
 ##### Bloco 25: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 25-01: Intro - NodeJS
-- [ ] 25-01: Node.js - Introdução
-- [ ] 25-02: Node.js - Fluxo Assíncrono
-- [ ] 25-03: Testes com NodeJS
-- [ ] 25-04: Express: HTTP com Node.js
-- [ ] 25-05: Express: Middlewares
-- [ ] 25-06: Projeto - Talker Manager
+- [ ] 25-01: _Intro - NodeJS_
+- [ ] 25-01: _Node.js - Introdução_
+- [ ] 25-02: _Node.js - Fluxo Assíncrono_
+- [ ] 25-03: _Testes com NodeJS_
+- [ ] 25-04: _Express: HTTP com Node.js_
+- [ ] 25-05: _Express: Middlewares_
+- [ ] 25-06: _[Projeto - Talker Manager]()_
 
 ##### Bloco 26: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 26-01: Introdução - Arquitetura de Software
-- [ ] 26-01: Arquitetura de Software - Camada de Model
-- [ ] 26-02: Arquitetura de Software - Camada de Controller e Service
-- [ ] 26-03: Arquitetura Web - Rest e Restful
-- [ ] 26-04: Arquitetura de Software - Testando as Camadas
-- [ ] 26-05: Projeto - Store Manager
+- [ ] 26-01: _Introdução - Arquitetura de Software_
+- [ ] 26-01: _Arquitetura de Software - Camada de Model_
+- [ ] 26-02: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 26-03: _Arquitetura Web - Rest e Restful_
+- [ ] 26-04: _Arquitetura de Software - Testando as Camadas_
+- [ ] 26-05: _[Projeto - Store Manager]()_
 
 ##### Bloco 27: Autenticação e Upload de Arquivos
-- [ ] 27-01: NodeJS - JWT - (JSON Web Token)
-- [ ] 27-02: NodeJS - Upload de arquivos com `multer`
-- [ ] 27-03: NodeJS - Testando APIs com Testes de Integração
-- [ ] 27-04: Projeto - Cookmaster
+- [ ] 27-01: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 27-02: _NodeJS - Upload de arquivos com multer_
+- [ ] 27-03: _NodeJS - Testando APIs com Testes de Integração_
+- [ ] 27-04: _[Projeto - Cookmaster]()_
 
 ##### Bloco 28: Deployment
-- [ ] 28-01: Introdução - Deploy
-- [ ] 28-01: Infraestrutura - Deploy com Heroku
-- [ ] 28-02: Deploy - Gerenciadores de Processos
-- [ ] 28-03: Projeto - Stranger Things
+- [ ] 28-01: _Introdução - Deploy_
+- [ ] 28-01: _Infraestrutura - Deploy com Heroku_
+- [ ] 28-02: _Deploy - Gerenciadores de Processos_
+- [ ] 28-03: _[Projeto - Stranger Things]()_
 
 ##### Bloco 29: Arquitetura: SOLID e ORM
-- [ ] 29-01: Arquitetura - Princípios SOLID
-- [ ] 29-02: ORM - Interface da aplicação com o banco de dados
-- [ ] 29-03: ORM - Associations
-- [ ] 29-04: Projeto - API de Blogs
+- [ ] 29-01: _Arquitetura - Princípios SOLID_
+- [ ] 29-02: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 29-03: _ORM - Associations_
+- [ ] 29-04: _[Projeto - API de Blogs]()_
 
 ##### Bloco 30: Sockets
-- [ ] 30-01: Arquitetura de Software - Camada de View
-- [ ] 30-02: Sockets - TCP/UDP & NET
-- [ ] 30-03: Sockets - Socket.io
-- [ ] 30-04: Sockets - Praticando Socket.io
-- [ ] 30-05: Projeto - Webchat
+- [ ] 30-01: _Arquitetura de Software - Camada de View_
+- [ ] 30-02: _Sockets - TCP/UDP & NET_
+- [ ] 30-03: _Sockets - Socket.io_
+- [ ] 30-04: _Sockets - Praticando Socket.io_
+- [ ] 30-05: _[Projeto - Webchat]()_
 
 ##### Bloco 31: Projeto - App de Delivery
-- [ ] 31-01: Projeto - App de Delivery
+- [ ] 31-01: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 ##### Bloco 32: Introdução à Python
-- [ ] 32-01: Introdução - Ciência da Computação
-- [ ] 32-01: Aprendendo Python
-- [ ] 32-02: Entrada e Saída de Dados
-- [ ] 32-03: Testes
-- [ ] 32-04: Projeto - Job Insights
+- [ ] 32-01: _Introdução - Ciência da Computação_
+- [ ] 32-01: _Aprendendo Python_
+- [ ] 32-02: _Entrada e Saída de Dados_
+- [ ] 32-03: _Testes_
+- [ ] 32-04: _[Projeto - Job Insights]()_
 
 ##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 33-01: Introdução à programação orientada a objetos
-- [ ] 33-02: Herança, Composição e Interfaces
-- [ ] 33-03: Padrões de projeto
-- [ ] 33-04: Projeto - Relatórios de Estoque
+- [ ] 33-01: _Introdução à programação orientada a objetos_
+- [ ] 33-02: _Herança, Composição e Interfaces_
+- [ ] 33-03: _Padrões de projeto_
+- [ ] 33-04: _[Projeto - Relatórios de Estoque]()_
 
 ##### Bloco 34: Redes e Raspagem de Dados
-- [ ] 34-01: Arquitetura de redes
-- [ ] 34-02: Redes de computadores, ferramentas e segurança
-- [ ] 34-03: Raspagem de Dados
-- [ ] 34-04: Projeto - Tech news
+- [ ] 34-01: _Arquitetura de redes_
+- [ ] 34-02: _Redes de computadores, ferramentas e segurança_
+- [ ] 34-03: _Raspagem de Dados_
+- [ ] 34-04: _[Projeto - Tech news]()_
 
 ##### Bloco 35: Algoritmos
-- [ ] 35-01: Complexidade de Algoritmos
-- [ ] 35-02: Recursividade e Estratégias para solução de problemas
-- [ ] 35-03: Algoritmos de ordenação e busca
-- [ ] 35-04: Projeto - Algoritmos
+- [ ] 35-01: _Complexidade de Algoritmos_
+- [ ] 35-02: _Recursividade e Estratégias para solução de problemas_
+- [ ] 35-03: _Algoritmos de ordenação e busca_
+- [ ] 35-04: _[Projeto - Algoritmos]()_
 
 ##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets
-- [ ] 36-01: Arquitetura de Computadores
-- [ ] 36-02: Arrays
-- [ ] 36-03: Hashmap e Dict
-- [ ] 36-04: Set
-- [ ] 36-05: Projeto - Restaurant Orders
+- [ ] 36-01: _Arquitetura de Computadores_
+- [ ] 36-02: _Arrays_
+- [ ] 36-03: _Hashmap e Dict_
+- [ ] 36-04: _Set_
+- [ ] 36-05: _[Projeto - Restaurant Orders]()_
 
 ##### Bloco 37: Estrutura de Dados II: Listas, Filas e Pilhas
-- [ ] 37-01: Nó e Listas Encadeadas
-- [ ] 37-02: Deque
-- [ ] 37-03: Pilhas
-- [ ] 37-04: Projeto - TING - Trybe Is Not Google
+- [ ] 37-01: _Nó e Listas Encadeadas_
+- [ ] 37-02: _Deque_
+- [ ] 37-03: _Pilhas_
+- [ ] 37-04: _[Projeto - TING - Trybe Is Not Google]()_
 
 <!-- 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
