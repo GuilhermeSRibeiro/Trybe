@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 18: Projeto App de Receitas
 - [ ] 18-01: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-End :hourglass_flowing_sand:
+## Desenvolvimento Back-End :arrow_forward:
 ##### Bloco 19: Introdução à SQL
 - [ ] 19-01: _Introdução - Back-end_
 - [ ] 19-01: _Introdução - Bancos de dados relacionais_
@@ -207,7 +207,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 31: Projeto - App de Delivery
 - [ ] 31-01: _[Projeto - App de Delivery]()_
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :no_entry_sign:
 ##### Bloco 32: Introdução à Python
 - [ ] 32-01: _Introdução - Ciência da Computação_
 - [ ] 32-01: _Aprendendo Python_
