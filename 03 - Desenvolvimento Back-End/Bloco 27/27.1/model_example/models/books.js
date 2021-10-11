@@ -1,4 +1,5 @@
 const connection = require('./connection');
+const authorsDB = require('./authors');
 
 const getAll = async () => {
   const query = 'SELECT * FROM ModelExample.books;';
@@ -27,8 +28,21 @@ const getById = async (id) => {
   return book;
 };
 
+const validateBook = async (title, authorId) => {
+  if (!title || typeof title !== 'string' || title.length < 3) return false;
+  if (!authorId || typeof authorId !== 'number' || !(await authorsDB.getById(authorId))) return false;
+  return true;
+};
+
+const create = async (title, authorId) => {
+  const query = 'INSERT INTO ModelExample.books (title, author_id) VALUES (?,?)';
+  return connection.execute(query, [title, authorId]);
+};
+
 module.exports = {
   getAll,
   getByAuthorId,
   getById,
+  validateBook,
+  create,
 };
