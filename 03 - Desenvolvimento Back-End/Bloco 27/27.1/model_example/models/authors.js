@@ -1,13 +1,11 @@
 const connection = require('./connection');
 
 const getAll = async () => {
-  const authors = await connection.execute();
+  const query = 'SELECT id, first_name, middle_name, last_name FROM ModelExample.authors;';
+  const authors = await connection.execute(query);
   return authors;
 };
 
-const teste = () => console.log('teste');
-
 module.exports = {
   getAll,
-  teste,
 };
