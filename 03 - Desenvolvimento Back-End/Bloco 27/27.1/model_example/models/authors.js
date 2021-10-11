@@ -25,6 +25,16 @@ const getAll = async () => {
   return authors.map(serialize).map(getNewAuthor);
 };
 
+const getById = async (id) => {
+  const query = 'SELECT * FROM ModelExample.authors WHERE id=?;';
+  const [author] = await connection.execute(query, [id]);
+  if (author.length === 0) {
+    return null;
+  }
+  return author.map(serialize).map(getNewAuthor);
+};
+
 module.exports = {
   getAll,
+  getById,
 };
