@@ -5,6 +5,9 @@ const getAll = async () => {
   return authors;
 };
 
+const teste = () => console.log('teste');
+
 module.exports = {
   getAll,
+  teste,
 };
