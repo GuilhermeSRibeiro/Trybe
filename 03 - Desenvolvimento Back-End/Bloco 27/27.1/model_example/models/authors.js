@@ -19,10 +19,23 @@ const getNewAuthor = (authorData) => {
   };
 };
 
+// const getAll = async () => {
+//   const query = 'SELECT id, first_name, middle_name, last_name FROM ModelExample.authors;';
+//   const [authors] = await connection.execute(query);
+//   return authors.map(serialize).map(getNewAuthor);
+// };
+
 const getAll = async () => {
-  const query = 'SELECT id, first_name, middle_name, last_name FROM ModelExample.authors;';
-  const [authors] = await connection.execute(query);
-  return authors.map(serialize).map(getNewAuthor);
+  return connection()
+    .then((db) => db.collection('authors').find().toArray())
+      .then((authors) => authors
+        .map(({ _id, firstName, middleName, lastName }) => getNewAuthor({
+          id: _id,
+          firstName,
+          middleName,
+          lastName,
+        }))
+      );
 };
 
 const getById = async (id) => {

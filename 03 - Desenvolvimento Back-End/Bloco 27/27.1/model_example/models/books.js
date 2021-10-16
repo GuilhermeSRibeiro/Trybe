@@ -1,22 +1,32 @@
 const connection = require('./connection');
 const authorsDB = require('./authors');
 
+// const getAll = async () => {
+//   const query = 'SELECT * FROM ModelExample.books;';
+//   const [books] = await connection.execute(query);
+//   return books;
+// };
+
 const getAll = async () => {
-  const query = 'SELECT * FROM ModelExample.books;';
-  const [books] = await connection.execute(query);
-  return books;
+  return connection()
+    .then((db) => db.collection('books').find().toArray());
 };
 
+// const getByAuthorId = async (author_id) => {
+//   // const query = `SELECT * FROM ModelExample.books WHERE author_id=${author_id}`;
+//   // const [books] = await connection.execute(query);
+//   // ou...
+//   const query = 'SELECT * FROM ModelExample.books WHERE author_id=?';
+//   const [books] = await connection.execute(query, [author_id]);
+//   if (books.length === 0) {
+//     return null;
+//   }
+//   return books;
+// };
+
 const getByAuthorId = async (author_id) => {
-  // const query = `SELECT * FROM ModelExample.books WHERE author_id=${author_id}`;
-  // const [books] = await connection.execute(query);
-  // ou...
-  const query = 'SELECT * FROM ModelExample.books WHERE author_id=?';
-  const [books] = await connection.execute(query, [author_id]);
-  if (books.length === 0) {
-    return null;
-  }
-  return books;
+  return connection()
+  .then((db) => db.collection('books').find({ author_id: Number(author_id)}).toArray());
 };
 
 const getById = async (id) => {
